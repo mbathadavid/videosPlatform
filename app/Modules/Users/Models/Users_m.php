@@ -75,11 +75,17 @@ class Users_m extends Model
                     ->join('auth_identities', 'auth_identities.user_id = users.id', 'left')
                     ->join('auth_groups_users', 'auth_groups_users.user_id = users.id', 'left')
                     ->where('users.id !=',auth()->user()->id)
+                    ->where('users.active',1)
                     ->orderBy('users.id', 'DESC')
                     ->get()
                     ->getResult();
 
     return $admins;
+}
+
+//Function to get User
+function get_user() {
+
 }
 
 //Function to retrieve all modules

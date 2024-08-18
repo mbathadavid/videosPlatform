@@ -75,12 +75,6 @@ class GeneralModel extends Model
         return $this->db->table('profiles')->where('client', $client)->get()->getRow();
     }
 
-    //function user profile
-    function user_profile() {
-        $id = auth()->id();
-
-        return $this->db->table('writers')->where('user_id', $id)->get()->getRow();
-    }
 
     //Get Logged In user Group
     function user_group($id) {
@@ -105,5 +99,20 @@ class GeneralModel extends Model
                 ->where('module_name',$module)
                 ->get()
                 ->getRow();
+    }
+
+    //Get User
+    function get_user($id) {
+        $user = $this->db
+                    ->table('users')
+                    ->select('users.*, auth_identities.secret,auth_groups_users.group')
+                    ->join('auth_identities', 'auth_identities.user_id = users.id', 'left')
+                    ->join('auth_groups_users', 'auth_groups_users.user_id = users.id', 'left')
+                    ->where('users.id',$id)
+                    // ->orderBy('users.id', 'DESC')
+                    ->get()
+                    ->getRow();
+
+        return $user;
     }
 }

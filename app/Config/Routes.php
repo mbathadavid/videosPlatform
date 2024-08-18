@@ -32,6 +32,10 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->group('users', ['namespace' => 'App\Modules\Users\Controllers','filter' => 'auth'], function ($routes) {
         $routes->add('/', 'Administrator::index');
         $routes->add('add', 'Administrator::add');
+        $routes->add('edit/(:any)', 'Administrator::edit/$1');
+        $routes->add('ban/(:any)', 'Administrator::ban/$1');
+        $routes->add('unban/(:any)', 'Administrator::unban/$1');
+        $routes->add('suspend/(:any)/(:any)', 'Administrator::suspend/$1/$2');
     });
     
 });

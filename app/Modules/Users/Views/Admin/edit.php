@@ -13,7 +13,7 @@
             <div class="col-lg-5 col-md-5">
                 <?php
                 // echo "<pre>";
-                //     print_r($perms);
+                //     print_r($theuser);
                 // echo "</pre>";
                 // die;
 
@@ -29,35 +29,35 @@
                 
                 <div class="col-12">
                     <label class="fw-semibold mb-2">First Name</label>
-                    <input type="text" name="first_name" value="<?= set_value('first_name') ?>" class="form-control <?= validation_show_error('first_name') ? 'is-invalid' : '' ?>" id="first_name">
+                    <input type="text" name="first_name" value="<?= $theuser->first_name ?>" class="form-control <?= validation_show_error('first_name') ? 'is-invalid' : '' ?>" id="first_name">
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('first_name') ?>
                     </div>
                 </div>
                 <div class="col-12">
                     <label class="fw-semibold mb-2">Last Name</label>
-                    <input type="text" name="last_name" value="<?= set_value('last_name') ?>" class="form-control <?= validation_show_error('last_name') ? 'is-invalid' : '' ?>" id="last_name">
+                    <input type="text" name="last_name" value="<?= $theuser->last_name ?>" class="form-control <?= validation_show_error('last_name') ? 'is-invalid' : '' ?>" id="last_name">
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('last_name') ?>
                     </div>
                 </div>
                 <div class="col-12">
                     <label class="fw-semibold mb-2">Phone</label>
-                    <input type="tel" name="phone" value="<?= set_value('phone') ?>" class="form-control <?= validation_show_error('phone') ? 'is-invalid' : '' ?>" id="phone">
+                    <input type="tel" name="phone" value="<?= $theuser->phone ?>" class="form-control <?= validation_show_error('phone') ? 'is-invalid' : '' ?>" id="phone">
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('phone') ?>
                     </div>
                 </div>
                 <div class="col-12">
                     <label class="fw-semibold mb-2">Email</label>
-                    <input type="email" name="email" value="<?= set_value('email') ?>" class="form-control <?= validation_show_error('email') ? 'is-invalid' : '' ?>" id="email">
+                    <input type="email" name="email" value="<?= $theuser->secret ?>" class="form-control <?= validation_show_error('email') ? 'is-invalid' : '' ?>" id="email">
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('email') ?>
                     </div>
                 </div>
                 <div class="col-12">
                     <label class="fw-semibold mb-2">Username</label>
-                    <input type="text" name="username" value="<?= set_value('username') ?>" class="form-control <?= validation_show_error('username') ? 'is-invalid' : '' ?>" id="username">
+                    <input type="text" name="username" value="<?= $theuser->username ?>" class="form-control <?= validation_show_error('username') ? 'is-invalid' : '' ?>" id="username">
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('username') ?>
                     </div>
@@ -65,7 +65,7 @@
                 <div class="col-12">
                     <label class="fw-semibold mb-2">Group</label>
                     <?php
-                    echo form_dropdown('group', ['' => 'Select Group'] +  $groups, set_value('group'), 'class="form-control '. (validation_show_error('group') ? 'is-invalid' : '') . '" data-trigger id="choices-single-default"')
+                    echo form_dropdown('group', ['' => 'Select Group'] +  $groups, $theuser->group, 'class="form-control '. (validation_show_error('group') ? 'is-invalid' : '') . '" data-trigger id="choices-single-default"')
                     ?>
                     <div class="invalid-feedback">
                         <?php echo validation_show_error('group') ?>
