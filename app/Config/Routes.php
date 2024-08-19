@@ -38,4 +38,9 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('suspend/(:any)/(:any)', 'Administrator::suspend/$1/$2');
     });
     
+
+    //Permissions
+    $routes->group('permissions', ['namespace' => 'App\Modules\Permissions\Controllers','filter' => 'auth'], function ($routes) {
+        $routes->add('/', 'Administrator::index');
+    });
 });
