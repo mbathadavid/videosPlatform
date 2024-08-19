@@ -4,10 +4,19 @@
 <?= $this->section('content') ?>
 
 <div class="card">
+        <div class="card-header">
+            <h5 class="float-start">Add User</h5>
+            <a href="<?php echo base_url('admin/users') ?>" class="btn btn-success text-white float-end">All Users</a>
+        </div>
     <div class="card-body">
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-5">
                 <?php
+                // echo "<pre>";
+                //     print_r($perms);
+                // echo "</pre>";
+                // die;
+
                 $attributes = [];
 
                 if (session()->has('errors')) {
@@ -17,7 +26,7 @@
                 echo form_open(current_url(), $attributes);
                 ?>
                 
-                <h5 class="text-center">Add User</h5>
+                
                 <div class="col-12">
                     <label class="fw-semibold mb-2">First Name</label>
                     <input type="text" name="first_name" value="<?= set_value('first_name') ?>" class="form-control <?= validation_show_error('first_name') ? 'is-invalid' : '' ?>" id="first_name">

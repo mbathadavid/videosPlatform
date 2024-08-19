@@ -58,7 +58,7 @@ abstract class AdministratorController extends Controller
 
         // Preload any models, libraries, etc, here.
         $gen =  new GeneralModel();
-        // $this->profile = $gen->load_profile(1);
+        // $this->profile = $gen->load_profi
         $this->client = 1;
         $this->gen =  new \App\Models\GeneralModel();
 

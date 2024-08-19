@@ -22,6 +22,14 @@
     <link href="<?php echo base_url() ?>/assets/admin/vendors/datatables/dataTables.bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
 
+    <!--Toaster Popup message CSS -->
+    <link href="<?php echo base_url() ?>assets/admin/vendors/toast-master/css/jquery.toast.css" rel="stylesheet">
+
+    <!-- Core Vendors JS -->
+    <script src="<?php echo base_url() ?>/assets/admin/js/vendors.min.js"></script>
+
+    <!-- Core JS -->
+    <script src="<?php echo base_url() ?>/assets/admin/js/app.min.js"></script>
 </head>
 
 <body>
@@ -54,16 +62,14 @@
         </div>
     </div>
 
-
-    <!-- Core Vendors JS -->
-    <script src="<?php echo base_url() ?>/assets/admin/js/vendors.min.js"></script>
-
     <!-- page js -->
     <script src="<?php echo base_url() ?>/assets/admin/vendors/apexcharts/dist/apexcharts.min.js"></script>
     <script src="<?php echo base_url() ?>/assets/admin/js/pages/dashboard.js"></script>
+    <script src="<?php echo base_url() ?>/assets/admin/vendors/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets/admin/vendors/datatables/dataTables.bootstrap.min.js"></script>
 
-    <!-- Core JS -->
-    <script src="<?php echo base_url() ?>/assets/admin/js/app.min.js"></script>
+    <!-- Popup message jquery -->
+    <script src="<?php echo base_url() ?>assets/admin/vendors/toast-master/js/jquery.toast.js"></script>
 
 
     <!-- Datatables -->

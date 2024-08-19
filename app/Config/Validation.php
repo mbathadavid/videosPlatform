@@ -103,7 +103,7 @@ class Validation extends BaseConfig
         ],
     ];
 
-    //Rules for validating Users
+    //Rules for validating User When adding
     public array $uservalidation = [
         'first_name' => [
             'label' => 'First Name',
@@ -132,7 +132,7 @@ class Validation extends BaseConfig
             'errors' => [
                 'required' => 'You must specify the {field} of the user',
                 'valid_email' => 'You need to specify a valid {field}',
-                'is_unique' => 'The specified {field} has already regisetred another user',
+                'is_unique' => 'The specified {field} has already registered another user',
             ]
         ],
         'username' => [
@@ -140,7 +140,7 @@ class Validation extends BaseConfig
             'rules' => 'required|is_unique[users.username]',
             'errors' => [
                 'required' => 'You must specify the {field} of the user',
-                'is_unique' => 'The specified {field} has already regisetred another user',
+                'is_unique' => 'The specified {field} has already registered another user',
             ]
         ],
         'group' => [
@@ -160,6 +160,70 @@ class Validation extends BaseConfig
         'cpassword' => [
             'label' => 'Confirm Password',
             'rules' => 'required|matches[password]',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user',
+                'matches' => '{field} and password must match'
+            ]
+        ],
+    ];
+
+    //Rules for validating user when adding
+    public array $usereditvalidation = [
+        'first_name' => [
+            'label' => 'First Name',
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user'
+            ]
+        ],
+        'last_name' => [
+            'label' => 'Last Name',
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user'
+            ]
+        ],
+        'phone' => [
+            'label' => 'Phone Number',
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user'
+            ]
+        ],
+        'email' => [
+            'label' => 'Email Address',
+            'rules' => 'required|valid_email',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user',
+                'valid_email' => 'You need to specify a valid {field}',
+                'is_unique' => 'The specified {field} has already registered another user',
+            ]
+        ],
+        'username' => [
+            'label' => 'Username',
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user',
+                'is_unique' => 'The specified {field} has already registered another user',
+            ]
+        ],
+        'group' => [
+            'label' => 'User Group',
+            'rules' => 'required',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user'
+            ]
+        ],
+        'password' => [
+            'label' => 'Password',
+            'rules' => 'max_length[10]',
+            'errors' => [
+                'required' => 'You must specify the {field} of the user'
+            ]
+        ],
+        'cpassword' => [
+            'label' => 'Confirm Password',
+            'rules' => 'matches[password]',
             'errors' => [
                 'required' => 'You must specify the {field} of the user',
                 'matches' => '{field} and password must match'
