@@ -228,6 +228,17 @@ INSERT INTO `users` (`id`, `username`, `status`, `status_message`, `active`, `la
 	(5, 'johnte', NULL, NULL, 0, NULL, '2024-08-17 08:31:56', '2024-08-17 08:31:56', NULL, 'Johnson', 'Hillary', '0735353632'),
 	(6, 'hill', NULL, NULL, 1, NULL, '2024-08-17 08:33:55', '2024-08-17 08:33:56', NULL, 'Hillary', 'Joshua', '0734353546');
 
+CREATE TABLE IF NOT EXISTS `group_permissions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_id` int(11) DEFAULT NULL,
+  `permission` text DEFAULT NULL,
+  `created_on` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `modified_on` int(11) DEFAULT NULL,
+  `modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
+
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
