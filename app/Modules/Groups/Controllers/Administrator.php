@@ -25,18 +25,18 @@ class Administrator extends AdministratorController
         $data = [];
 
         $model = new Groups_m();
-
+      
 
         if($this->request->getPost())
         {
             // $validation = \Config\Services::validation();
-            $validation = service('validation');
 
-
-            if ($validation->withRequest($this->request)->run()) 
-            {
+             
                 $post = (object) $this->request->getPost();
 
+             
+            
+ 
                 $form_data = array(
                     'name' => strtolower($post->group),
                     'title' => $post->title,
@@ -55,11 +55,7 @@ class Administrator extends AdministratorController
                 {
                     return redirect()->to('admin/groups/add')->with('error', 'Something went wrong!');
                 }
-            }
-            else
-            {
-                $data['validation_errors'] = $validation->getErrors();
-            }
+             
         }
     
         $data['groups'] = $model->findAll();

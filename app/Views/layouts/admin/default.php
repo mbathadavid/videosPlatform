@@ -83,7 +83,7 @@
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
     <script>
-        $('.data-table').DataTable({
+        $('.data-table, .datatable').DataTable({
             'columnDefs': [{
                 'orderable': false,
                 'targets': 0
@@ -101,6 +101,52 @@
     </script>
 
 
+
+
+    <?php if (session()->getFlashdata('success')) : ?>
+        <script>
+            $.toast({
+                heading: 'Success',
+                text: ' <?php echo session()->getFlashdata('success') ?>',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'success',
+                hideAfter: 3500,
+                stack: 6
+            })
+        </script>
+
+
+    <?php endif; ?>
+
+    <?php if (session()->getFlashdata('error')) : ?>
+        <script>
+            $.toast({
+                heading: 'Error',
+                text: ' <?php echo session()->getFlashdata('error') ?>',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'error',
+                hideAfter: 3500,
+                stack: 6
+            })
+        </script>
+
+    <?php endif; ?>
+
+    <script>
+        function toastt(heading, type, message) {
+            $.toast({
+                heading: heading,
+                text: message,
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: type,
+                hideAfter: 3500,
+                stack: 6
+            })
+        }
+    </script>
 </body>
 
 

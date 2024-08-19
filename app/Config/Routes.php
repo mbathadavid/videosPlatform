@@ -5,22 +5,16 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', function() {
-    $auth = service('auth');
-    if (!$auth->loggedIn()) {
-        return redirect()->to('login');
-    }
-    return redirect()->to('admin'); 
-});
+ 
 
-// $routes->get('/', 'Home::index');
+$routes->get('/', 'Home::index');
 
 service('auth')->routes($routes);
 
 //Admin Group Routes
 $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     //Dashboard Route
-    $routes->get('/', 'Admin::index');
+    $routes->get('/', 'Home::index');
     $routes->add('modules', 'AdminController::modules');
 
     //User Groups
@@ -41,8 +35,8 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
 
     // media houses
 
-     $routes->group('media-houses', ['namespace' => 'App\Modules\MediaHouses\Controllers','filter' => 'auth'], function ($routes) {
-        $routes->add('manage', 'Administrator::index');
+     $routes->group('media-houses', ['namespace' => 'App\Modules\MediaHouses\Controllers','filter' => 'auth:media-houses,admin,home'], function ($routes) {
+        $routes->add('manage', 'Administrator::index',['filter' => 'auth:manage,index']);
         $routes->add('(:any)/update_media', 'Administrator::updateMhouse/$1');
     });
 
@@ -60,5 +54,11 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('check', 'Administrator::check');
         $routes->add('assign/(:any)', 'Administrator::assign/$1');
     });
+
+});
+$routes->group('client-area', ['filter' => 'auth'], function ($routes) {
+
+    $routes->get('/', 'Admin::index');
+    $routes->add('manage', 'Administrator::index');
 
 });

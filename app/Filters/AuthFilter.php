@@ -11,46 +11,56 @@ class AuthFilter implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-         //Ensure is Authenticated
+        // Ensure the user is authenticated
         if (!auth()->loggedIn()) {
-            return redirect()->to('login'); // Redirect to your login page.
+            return redirect()->to('login'); // Redirect to login page if not authenticated
         }
 
-    
-        //Ensure user only accsses routes realted to their Group
-       $uri = service('uri');
-       helper('url');
-       $groupSegment = $uri->getSegment(1);
-       $model = new GeneralModel();
-       $usergroup = $model->user_group(auth()->user()->id)->group;
-       $userpermissions = $model->user_permissions(auth()->user()->id);
-       $currentURI = $request->uri->getPath(); // Get the current URI
-       $router = service('router');
+        $uri = service('uri');
+        helper('url');
+        $groupSegment = $uri->getSegment(1); // Get the first segment of the URI
+        $model = new GeneralModel();
+        $usergroup = $model->user_group(auth()->user()->id)->group; // Get user group
+        $userpermissions = $model->user_permissions(auth()->user()->id); // Get user permissions
+        $router = service('router');
 
         // Get the current controller and method being accessed
         $controllerName = $router->controllerName();
         $methodName = $router->methodName();
-        $actualControllerName = explode("\\",$controllerName);
+        $actualControllerName = explode("\\", $controllerName);
         $thecontrollerName = $actualControllerName[3];
-        
-        $thepermission = strtolower($thecontrollerName.'.'.$methodName);
-        $allmoduleperms = $thecontrollerName.".*";
 
-        // echo "<pre>";
-        //     print_r($usergroup);
-        // echo "</pre>";
-        // // echo "<pre>";
-        // //     print_r(base_url('admin'));
-        // // echo "</pre>";
-        // die;
+        $thepermission = strtolower($thecontrollerName . '.' . $methodName);
+        $allmoduleperms = strtolower($thecontrollerName . ".*");
 
-    //    Check whether User is allowed to proceed
-    //    if (!in_array($thepermission,$userpermissions) || !in_array($allmoduleperms,$userpermissions) || current_url() !== base_url('admin') && $usergroup !== "superadmin") {
-    //         return redirect()->to($this->getDashboardRoute($usergroup));
-    //    }
-       
-       if ($groupSegment !== $usergroup && $usergroup !== "superadmin") {
-            return redirect()->to($this->getDashboardRoute($usergroup));
+     
+        // Permission check: uncomment if needed
+        // if (!in_array($thepermission, $userpermissions)) 
+        // {
+        //     return redirect()->to($this->getDashboardRoute($usergroup))->with('error', 'Access denied');
+        // }
+
+
+        if (current_url() === base_url('admin')) 
+        {
+            return;
+        }
+
+
+        // Check group segment
+        if ($usergroup == 'superadmin') 
+        {
+            // Allow access to admin routes
+            return;
+        } 
+        else 
+        {
+            if (!in_array($thepermission, $userpermissions) && !in_array($allmoduleperms, $userpermissions)) 
+            {
+                return redirect()->to($this->getDashboardRoute($usergroup))->with('error', 'Access denied');
+            }
+            // Redirect to the appropriate dashboard based on user group
+            // return redirect()->to($this->getDashboardRoute($usergroup))->with('error', 'Access denied');
         }
     }
 
@@ -61,25 +71,14 @@ class AuthFilter implements FilterInterface
 
     private function getDashboardRoute($userRole)
     {
-        // echo $userRole;
-        // die;
-
-        // if ($userRole === 'admin' || $userRole === "superadmin") {
-        //     return 'admin';
-        // } else {
-        //     return '/';
-        // }
-        
-
         switch ($userRole) {
             case 'admin':
-                return 'admin';
             case 'superadmin':
                 return 'admin';
+            case 'client':
+                return 'client-area';
             default:
-                return '/';
+                return '/'; // Default route, can be adjusted as needed
         }
     }
 }
-
-?>

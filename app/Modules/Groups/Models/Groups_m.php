@@ -19,7 +19,7 @@ class Groups_m extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name', 'desciption', 'title', 'created_by', 'modified_by', 'created_at', 'updated_at'];
+    protected $allowedFields    = ['name', 'description', 'title', 'created_by', 'modified_by', 'created_at', 'updated_at'];
 
     // Dates
     protected $useTimestamps = false;
