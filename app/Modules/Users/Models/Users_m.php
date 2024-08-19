@@ -96,4 +96,11 @@ function get_modules() {
 }
 
 
+//Get Users in a Group
+function get_group_users($id) {
+    $users = $this->db->table('auth_groups_users')->where('group',$id)->get()->getResult();
+
+    return $users;
+}
+
 }

@@ -7,8 +7,8 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h5 class="float-start">All Users</h5>
-                <a href="<?php echo base_url('admin/users/add') ?>" class="btn btn-success text-white float-end">Add User</a>
+                <h5 class="float-start">All User Groups</h5>
+                <!-- <a href="<?php echo base_url('admin/users/add') ?>" class="btn btn-success text-white float-end">Add User</a> -->
             </div>
             <div class="card-body table-responsive">
                 <table id="responsive-datatable" class="table table-bordered table-bordered dt-responsive nowrap responsive-datatable datatable">
@@ -39,7 +39,7 @@
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                         <li><a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign_modules/' . $g->id) ?>">Assign Modules</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign_group_permissions/' . $g->id) ?>">Assign Permissions</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign/' . $g->id) ?>">Assign Permissions</a></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -53,8 +53,6 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        alert('Yoooo');
-    });
+    
 </script>
 <?= $this->endSection() ?>

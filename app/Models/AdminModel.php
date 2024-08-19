@@ -138,7 +138,7 @@ class AdminModel extends Model
                     $methods = $controllerReflection->getMethods();
 
                     // Initialize an array to store method names
-                    $controllerMethodNames = [];
+                    $controllerMethodNames = ['*'];
 
                     // Loop through the methods and add their names to the array
                     foreach ($methods as $method) {
@@ -214,4 +214,27 @@ class AdminModel extends Model
     }
 
 
+    //Generate Group Permissions
+    function group_permissions() {
+        $groups = $this->db->table('groups')->orderBy('id','DESC')->get()->getResult();
+
+        $groupperms = [];
+
+        foreach ($groups as $p) {
+            $p = (object) $p;
+            $perms = [];
+
+            $permissions = $this->db->table('group_permissions')->where('group_id',$p->id)->get()->getResult();
+
+            foreach ($permissions as $per) {
+                $per = (object) $per;
+
+                $perms[] = $per->permission;
+            }
+
+            $groupperms[strtolower($p->title)] = $perms;
+        }
+
+        return $groupperms;
+    }
 }

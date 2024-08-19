@@ -53,4 +53,44 @@ class Groups_m extends Model
         return $this->db->insertID();
     }
 
+    //Function to get group permissions
+    function get_group_permissions($id) {
+        $list = $this->db->table('group_permissions')->where('group_id',$id)->get()->getResult();
+
+        $perms = [];
+
+        foreach ($list as $key => $l) {
+            $p = (object) $l;
+
+            $perms[] = $p->permission;
+        }
+
+        return $perms;
+    }
+
+    //Function to remove Permisions
+
+    function unassign_perm($userid,$perm) {
+
+        return $this->db->table('auth_permissions_users')
+
+                        ->where('user_id', $userid)
+
+                        ->where('permission', $perm)
+
+                        ->delete();
+
+    }
+
+    function unassign_group_perm($group,$perm) {
+
+        return $this->db->table('group_permissions')
+
+                        ->where('group_id', $group)
+
+                        ->where('permission', $perm)
+
+                        ->delete();
+
+    }
 }

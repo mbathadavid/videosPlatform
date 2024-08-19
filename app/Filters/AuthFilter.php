@@ -19,11 +19,37 @@ class AuthFilter implements FilterInterface
     
         //Ensure user only accsses routes realted to their Group
        $uri = service('uri');
+       helper('url');
        $groupSegment = $uri->getSegment(1);
        $model = new GeneralModel();
        $usergroup = $model->user_group(auth()->user()->id)->group;
+       $userpermissions = $model->user_permissions(auth()->user()->id);
+       $currentURI = $request->uri->getPath(); // Get the current URI
+       $router = service('router');
+
+        // Get the current controller and method being accessed
+        $controllerName = $router->controllerName();
+        $methodName = $router->methodName();
+        $actualControllerName = explode("\\",$controllerName);
+        $thecontrollerName = $actualControllerName[3];
+        
+        $thepermission = strtolower($thecontrollerName.'.'.$methodName);
+        $allmoduleperms = $thecontrollerName.".*";
+
+        // echo "<pre>";
+        //     print_r($usergroup);
+        // echo "</pre>";
+        // // echo "<pre>";
+        // //     print_r(base_url('admin'));
+        // // echo "</pre>";
+        // die;
+
+    //    Check whether User is allowed to proceed
+    //    if (!in_array($thepermission,$userpermissions) || !in_array($allmoduleperms,$userpermissions) || current_url() !== base_url('admin') && $usergroup !== "superadmin") {
+    //         return redirect()->to($this->getDashboardRoute($usergroup));
+    //    }
        
-       if ($groupSegment !== $usergroup) {
+       if ($groupSegment !== $usergroup && $usergroup !== "superadmin") {
             return redirect()->to($this->getDashboardRoute($usergroup));
         }
     }
@@ -35,11 +61,21 @@ class AuthFilter implements FilterInterface
 
     private function getDashboardRoute($userRole)
     {
+        // echo $userRole;
+        // die;
+
+        // if ($userRole === 'admin' || $userRole === "superadmin") {
+        //     return 'admin';
+        // } else {
+        //     return '/';
+        // }
+        
+
         switch ($userRole) {
             case 'admin':
                 return 'admin';
-            // case 'techie':
-            //     return 'techie';
+            case 'superadmin':
+                return 'admin';
             default:
                 return '/';
         }

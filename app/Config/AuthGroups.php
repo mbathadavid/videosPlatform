@@ -27,6 +27,8 @@ class AuthGroups extends ShieldAuthGroups
 
      public array $permissions = [];
      public array $groups = [];
+     public array $matrix = [];
+
      public function __construct()
      {
          // Fetch permissions using the PermissionService
@@ -34,6 +36,7 @@ class AuthGroups extends ShieldAuthGroups
 
          $this->permissions = $model->generate_permissions();
          $this->groups = $model->generate_groups();
+         $this->matrix = $model->group_permissions();
         
      }
 
@@ -105,29 +108,29 @@ class AuthGroups extends ShieldAuthGroups
      *
      * This defines group-level permissions.
      */
-    public array $matrix = [
-        'superadmin' => [
-            'admin.*',
-            'users.*',
-            'beta.*',
-        ],
-        'admin' => [
-            'admin.access',
-            'users.create',
-            'users.edit',
-            'users.delete',
-            'beta.access',
-        ],
-        'developer' => [
-            'admin.access',
-            'admin.settings',
-            'users.create',
-            'users.edit',
-            'beta.access',
-        ],
-        'user' => [],
-        'beta' => [
-            'beta.access',
-        ],
-    ];
+    // public array $matrix = [
+    //     'superadmin' => [
+    //         'admin.*',
+    //         'users.*',
+    //         'beta.*',
+    //     ],
+    //     'admin' => [
+    //         'admin.access',
+    //         'users.create',
+    //         'users.edit',
+    //         'users.delete',
+    //         'beta.access',
+    //     ],
+    //     'developer' => [
+    //         'admin.access',
+    //         'admin.settings',
+    //         'users.create',
+    //         'users.edit',
+    //         'beta.access',
+    //     ],
+    //     'user' => [],
+    //     'beta' => [
+    //         'beta.access',
+    //     ],
+    // ];
 }

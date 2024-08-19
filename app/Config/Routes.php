@@ -42,5 +42,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     //Permissions
     $routes->group('permissions', ['namespace' => 'App\Modules\Permissions\Controllers','filter' => 'auth'], function ($routes) {
         $routes->add('/', 'Administrator::index');
+        $routes->add('check', 'Administrator::check');
+        $routes->add('assign/(:any)', 'Administrator::assign/$1');
     });
 });

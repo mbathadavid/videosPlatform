@@ -115,4 +115,17 @@ class GeneralModel extends Model
 
         return $user;
     }
+
+    //Get a users permissions
+    function user_permissions($id) {
+        $list = $this->db->table('auth_permissions_users')->where('user_id',$id)->get()->getResult();
+
+        $perms = [];
+
+        foreach ($list as $l) {
+            $perms[] = $l->permission;
+        }
+
+        return $perms;
+    }
 }
