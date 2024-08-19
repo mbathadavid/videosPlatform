@@ -53,11 +53,12 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('manage', 'Administrator::index');
         $routes->add('(:any)/update_industry', 'Administrator::updateIndustry/$1');
     
+    });
 
-    //Permissions
-    $routes->group('permissions', ['namespace' => 'App\Modules\Permissions\Controllers','filter' => 'auth'], function ($routes) {
+    $routes->group('permissions', ['namespace' => 'App\Modules\Permissions\Controllers', 'filter' => 'auth'], function ($routes) {
         $routes->add('/', 'Administrator::index');
         $routes->add('check', 'Administrator::check');
         $routes->add('assign/(:any)', 'Administrator::assign/$1');
     });
+
 });
