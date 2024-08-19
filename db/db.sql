@@ -15,11 +15,11 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for vida
-CREATE DATABASE IF NOT EXISTS `vida` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `vida`;
+-- Dumping database structure for rmedia
+CREATE DATABASE IF NOT EXISTS `rmedia` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+USE `rmedia`;
 
--- Dumping structure for table vida.auth_groups_users
+-- Dumping structure for table rmedia.auth_groups_users
 CREATE TABLE IF NOT EXISTS `auth_groups_users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned NOT NULL,
@@ -30,13 +30,13 @@ CREATE TABLE IF NOT EXISTS `auth_groups_users` (
   CONSTRAINT `auth_groups_users_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_groups_users: ~0 rows (approximately)
+-- Dumping data for table rmedia.auth_groups_users: ~0 rows (approximately)
 INSERT INTO `auth_groups_users` (`id`, `user_id`, `group`, `created_at`) VALUES
 	(1, 4, 'admin', '2024-08-16 12:15:17'),
 	(2, 5, 'admin', '2024-08-17 08:31:56'),
 	(3, 6, 'admin', '2024-08-17 08:33:56');
 
--- Dumping structure for table vida.auth_identities
+-- Dumping structure for table rmedia.auth_identities
 CREATE TABLE IF NOT EXISTS `auth_identities` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned NOT NULL,
@@ -56,13 +56,13 @@ CREATE TABLE IF NOT EXISTS `auth_identities` (
   CONSTRAINT `auth_identities_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_identities: ~0 rows (approximately)
+-- Dumping data for table rmedia.auth_identities: ~0 rows (approximately)
 INSERT INTO `auth_identities` (`id`, `user_id`, `type`, `name`, `secret`, `secret2`, `expires`, `extra`, `force_reset`, `last_used_at`, `created_at`, `updated_at`) VALUES
 	(3, 4, 'email_password', NULL, 'david@gmail.com', '$2y$12$uTyyZ0Wmk54CYMqJRca6Ze8bEP6x4va0kfGWtlrulaRbYVFR6GqOW', NULL, NULL, 0, '2024-08-17 08:11:31', '2024-08-16 12:15:16', '2024-08-17 08:11:31'),
 	(4, 5, 'email_password', NULL, 'johnte@gmail.com', '$2y$12$BsQ1Sc5DS1N77.RljF3nvuVG2WgRn4QIJ5LpfNN.sY/2ALvPLgEhW', NULL, NULL, 0, NULL, '2024-08-17 08:31:56', '2024-08-17 08:31:56'),
 	(5, 6, 'email_password', NULL, 'hill@gmail.com', '$2y$12$lu.uLsPk86vY72rU/Hbsiu.TYu.0vn0k/jn5.UoqYs/4lH0lTY5Jy', NULL, NULL, 0, NULL, '2024-08-17 08:33:55', '2024-08-17 08:33:56');
 
--- Dumping structure for table vida.auth_logins
+-- Dumping structure for table rmedia.auth_logins
 CREATE TABLE IF NOT EXISTS `auth_logins` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `ip_address` varchar(255) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS `auth_logins` (
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_logins: ~8 rows (approximately)
+-- Dumping data for table rmedia.auth_logins: ~8 rows (approximately)
 INSERT INTO `auth_logins` (`id`, `ip_address`, `user_agent`, `id_type`, `identifier`, `user_id`, `date`, `success`) VALUES
 	(1, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'email_password', 'mbathadavid3@gmail.com', NULL, '2024-08-16 12:33:01', 0),
 	(2, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'email_password', 'david@gmail.com', NULL, '2024-08-16 12:33:24', 0),
@@ -88,7 +88,7 @@ INSERT INTO `auth_logins` (`id`, `ip_address`, `user_agent`, `id_type`, `identif
 	(7, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'email_password', 'david@gmail.com', 4, '2024-08-17 08:11:14', 1),
 	(8, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36', 'email_password', 'david@gmail.com', 4, '2024-08-17 08:11:31', 1);
 
--- Dumping structure for table vida.auth_permissions_users
+-- Dumping structure for table rmedia.auth_permissions_users
 CREATE TABLE IF NOT EXISTS `auth_permissions_users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned NOT NULL,
@@ -99,9 +99,9 @@ CREATE TABLE IF NOT EXISTS `auth_permissions_users` (
   CONSTRAINT `auth_permissions_users_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_permissions_users: ~0 rows (approximately)
+-- Dumping data for table rmedia.auth_permissions_users: ~0 rows (approximately)
 
--- Dumping structure for table vida.auth_remember_tokens
+-- Dumping structure for table rmedia.auth_remember_tokens
 CREATE TABLE IF NOT EXISTS `auth_remember_tokens` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `selector` varchar(255) NOT NULL,
@@ -116,9 +116,9 @@ CREATE TABLE IF NOT EXISTS `auth_remember_tokens` (
   CONSTRAINT `auth_remember_tokens_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_remember_tokens: ~0 rows (approximately)
+-- Dumping data for table rmedia.auth_remember_tokens: ~0 rows (approximately)
 
--- Dumping structure for table vida.auth_token_logins
+-- Dumping structure for table rmedia.auth_token_logins
 CREATE TABLE IF NOT EXISTS `auth_token_logins` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `ip_address` varchar(255) NOT NULL,
@@ -133,9 +133,9 @@ CREATE TABLE IF NOT EXISTS `auth_token_logins` (
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.auth_token_logins: ~0 rows (approximately)
+-- Dumping data for table rmedia.auth_token_logins: ~0 rows (approximately)
 
--- Dumping structure for table vida.groups
+-- Dumping structure for table rmedia.groups
 CREATE TABLE IF NOT EXISTS `groups` (
   `id` int(9) NOT NULL AUTO_INCREMENT,
   `name` text NOT NULL,
@@ -148,12 +148,12 @@ CREATE TABLE IF NOT EXISTS `groups` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.groups: ~2 rows (approximately)
+-- Dumping data for table rmedia.groups: ~2 rows (approximately)
 INSERT INTO `groups` (`id`, `name`, `title`, `description`, `created_by`, `modified_by`, `created_at`, `updated_at`) VALUES
 	(1, 'super admin', 'Super Admin', 'For SuperAdmins', 4, NULL, 1723801949, NULL),
 	(2, 'admin', 'Admin', 'For admin groups', 4, NULL, 1723802005, NULL);
 
--- Dumping structure for table vida.migrations
+-- Dumping structure for table rmedia.migrations
 CREATE TABLE IF NOT EXISTS `migrations` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `version` varchar(255) NOT NULL,
@@ -165,14 +165,14 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.migrations: ~4 rows (approximately)
+-- Dumping data for table rmedia.migrations: ~4 rows (approximately)
 INSERT INTO `migrations` (`id`, `version`, `class`, `group`, `namespace`, `time`, `batch`) VALUES
 	(1, '2020-12-28-223112', 'CodeIgniter\\Shield\\Database\\Migrations\\CreateAuthTables', 'default', 'CodeIgniter\\Shield', 1723788400, 1),
 	(2, '2021-07-04-041948', 'CodeIgniter\\Settings\\Database\\Migrations\\CreateSettingsTable', 'default', 'CodeIgniter\\Settings', 1723788400, 1),
 	(3, '2021-11-14-143905', 'CodeIgniter\\Settings\\Database\\Migrations\\AddContextColumn', 'default', 'CodeIgniter\\Settings', 1723788400, 1),
 	(4, '2024-08-16-074348', 'App\\Database\\Migrations\\AddAttrinutesToUsers', 'default', 'App', 1723794470, 2);
 
--- Dumping structure for table vida.modules
+-- Dumping structure for table rmedia.modules
 CREATE TABLE IF NOT EXISTS `modules` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `module_name` text DEFAULT NULL,
@@ -184,12 +184,12 @@ CREATE TABLE IF NOT EXISTS `modules` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table vida.modules: ~2 rows (approximately)
+-- Dumping data for table rmedia.modules: ~2 rows (approximately)
 INSERT INTO `modules` (`id`, `module_name`, `module_path`, `created_on`, `created_by`, `modified_on`, `modified_by`) VALUES
 	(1, 'Groups', '\\App\\Modules\\Groups\\Controllers\\Administrator', 1723801478, 4, NULL, NULL),
 	(2, 'Users', '\\App\\Modules\\Users\\Controllers\\Administrator', 1723801478, 4, NULL, NULL);
 
--- Dumping structure for table vida.settings
+-- Dumping structure for table rmedia.settings
 CREATE TABLE IF NOT EXISTS `settings` (
   `id` int(9) NOT NULL AUTO_INCREMENT,
   `class` varchar(255) NOT NULL,
@@ -202,9 +202,9 @@ CREATE TABLE IF NOT EXISTS `settings` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.settings: ~0 rows (approximately)
+-- Dumping data for table rmedia.settings: ~0 rows (approximately)
 
--- Dumping structure for table vida.users
+-- Dumping structure for table rmedia.users
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(30) DEFAULT NULL,
@@ -222,11 +222,47 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Dumping data for table vida.users: ~1 rows (approximately)
+-- Dumping data for table rmedia.users: ~1 rows (approximately)
 INSERT INTO `users` (`id`, `username`, `status`, `status_message`, `active`, `last_active`, `created_at`, `updated_at`, `deleted_at`, `first_name`, `last_name`, `phone`) VALUES
 	(4, 'Daudi', NULL, NULL, 1, NULL, '2024-08-16 12:15:16', '2024-08-16 12:15:17', NULL, NULL, NULL, '0748269865'),
 	(5, 'johnte', NULL, NULL, 0, NULL, '2024-08-17 08:31:56', '2024-08-17 08:31:56', NULL, 'Johnson', 'Hillary', '0735353632'),
 	(6, 'hill', NULL, NULL, 1, NULL, '2024-08-17 08:33:55', '2024-08-17 08:33:56', NULL, 'Hillary', 'Joshua', '0734353546');
+
+
+
+CREATE TABLE `mediahouses` (
+	`id` INT(9) NOT NULL AUTO_INCREMENT,
+	`name` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`category` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`rate_card` FLOAT NULL DEFAULT NULL,
+	`created_on` INT(11) NULL DEFAULT NULL,
+	`created_by` INT(11) NULL DEFAULT NULL,
+	`updated_at` INT(11) NULL DEFAULT NULL,
+	`modified_by` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=56
+;
+
+
+CREATE TABLE `industries` (
+	`id` INT(9) NOT NULL AUTO_INCREMENT,
+	`name` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`description` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`status` INT(11) NULL DEFAULT NULL,
+	`created_on` INT(11) NULL DEFAULT NULL,
+	`created_by` INT(11) NULL DEFAULT NULL,
+	`updated_at` INT(11) NULL DEFAULT NULL,
+	`modified_by` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;
+
+
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

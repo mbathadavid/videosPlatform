@@ -62,6 +62,8 @@ abstract class AdministratorController extends Controller
         $this->client = 1;
         $this->gen =  new \App\Models\GeneralModel();
 
+        helper(['form']);
+
         // E.g.: $this->session = \Config\Services::session();
     }
 }
