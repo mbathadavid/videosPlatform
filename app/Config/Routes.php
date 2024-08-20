@@ -68,7 +68,12 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('assign/(:any)', 'Administrator::assign/$1');
     });
 
-
+    //Clients
+    $routes->group('clients', ['namespace' => 'App\Modules\Clients\Controllers', 'filter' => 'auth'], function ($routes) {
+        $routes->add('/', 'Administrator::index');
+        $routes->add('edit/(:any)', 'Administrator::edit/$1');
+        $routes->add('suspend/(:any)/(:any)', 'Administrator::suspend/$1/$2');
+    });
    
 });
 
@@ -76,7 +81,6 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
 
 // client area
 $routes->group('client-area', ['filter' => 'auth'], function ($routes) {
-
     $routes->get('/', 'Admin::index');
     $routes->add('manage', 'Administrator::index');
 });
