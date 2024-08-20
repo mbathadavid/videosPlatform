@@ -4,7 +4,7 @@
 
 <div class="card">
     <div class="card-body">
-        <h4>Industries</h4>
+        <h4>Slots</h4>
         <div class="row">
             <div class="col-md-4">
                 <div class="mt-4">
@@ -39,37 +39,37 @@
             <div class="col-md-8">
                 <div class="mt-4">
                     <div class="table-responsive">
-                    <table id="data-table" class="table data-table">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Status</th>
-                                <th>Action</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            $i = 0;
-                            foreach ($payload as $p) {
-                                $i++;
-                            ?>
-
+                        <table id="data-table" class="table data-table">
+                            <thead>
                                 <tr>
-                                    <td><?php echo $i ?></td>
-                                    <td><?php echo $p->name ?></td>
-                                    <td><?php echo $p->description ?></td>
-                                    <td><?php echo ($p->status == 1)  ? 'Active' : 'Inactive'; ?></td>
-                                    <td><a class="btn btn-sm btn-success btn-sm" href="<?php echo base_url('admin/industries/' . $p->id . '/update_industry') ?>">Update</a></td>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+
                                 </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $i = 0;
+                                foreach ($payload as $p) {
+                                    $i++;
+                                ?>
 
-                            <?php } ?>
+                                    <tr>
+                                        <td><?php echo $i ?></td>
+                                        <td><?php echo $p->name ?></td>
+                                        <td><?php echo $p->description ?></td>
+                                        <td><?php echo ($p->status == 1)  ? 'Active' : 'Inactive'; ?></td>
+                                        <td><a class="btn btn-sm btn-success btn-sm" href="<?php echo base_url('admin/slots/' . $p->id . '/update_slot') ?>">Update</a></td>
+                                    </tr>
 
-                        </tbody>
+                                <?php } ?>
 
-                    </table>
+                            </tbody>
+
+                        </table>
                     </div>
                 </div>
             </div>

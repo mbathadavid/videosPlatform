@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Industries\Controllers;
+namespace App\Modules\Platforms\Controllers;
 
 use App\Controllers\AdministratorController;
-use App\Modules\Industries\Models\Industries_m;
+use App\Modules\Platforms\Models\Platforms_m;
 
 use CodeIgniter\API\ResponseTrait;
 
@@ -11,19 +11,20 @@ class Administrator extends AdministratorController
 {
     use ResponseTrait;
 
-    //Index Function 
+    
+
+
     public function index()
     {
         helper('url');
-       
-        $data = [];
-        helper(['form']);
 
-        $model =  new Industries_m();
+        $data = [];
+
+        $model =  new Platforms_m();
 
         $validation = \Config\Services::validation();
         $validation->setRules([
-            'name' => 'required|is_unique[industries.name]'
+            'name' => 'required|is_unique[platforms.name]'
         ]);
 
         if ($this->request->getPost() && $validation->withRequest($this->request)->run()) {
@@ -32,7 +33,6 @@ class Administrator extends AdministratorController
             $formd = [
                 'name' => $post->name,
                 'description' => $post->description,
-                'status' => 1,
                 'created_by' => auth()->user()->id,
                 'created_on' => time()
             ];
@@ -40,18 +40,18 @@ class Administrator extends AdministratorController
             $ok =  $model->save($formd);
 
             if ($ok) {
-                return redirect()->to('admin/industries/manage')->with('success', 'Successfully added');
+                return redirect()->to('admin/platforms/manage')->with('success', 'Successfully added');
             }
         }
-        $data['payload'] = $model->get_all_industries();
+        $data['payload'] = $model->get_all_platforms();
 
-        return view('App\Modules\Industries\Views\Admin\index', $data);
+        return view('App\Modules\Platforms\Views\Admin\index', $data);
     }
 
 
-    function updateIndustry($id)
+    function updatePlatform($id)
     {
-        $model = new Industries_m();
+        $model = new Platforms_m();
 
 
         $rw = (object) $model->find($id);
@@ -64,35 +64,29 @@ class Administrator extends AdministratorController
 
             $validation = \Config\Services::validation();
             $validation->setRules([
-                'name' => 'required|is_unique[industries.name,id,' . $id . ']',
-                'status' => 'required'
+                'name' => 'required|is_unique[platforms.name,id,' . $id . ']',
             ]);
 
             if ($validation->withRequest($this->request)->run()) {
                 // Update data
                 $rw->name = $post->name;
-                $rw->status = $post->status;
+                $rw->description = $post->description;
                 $rw->updated_at = time();
                 $rw->modified_by =  auth()->user()->id;
 
 
-                if ($model->save($rw)) 
-                {
-                    return redirect()->to('admin/industries/manage')->with('success', 'Record updated successfully.');
-                } 
-                else 
-                {
+                if ($model->save($rw)) {
+                    return redirect()->to('admin/platforms/manage')->with('success', 'Record updated successfully.');
+                } else {
                     return redirect()->back()->withInput()->with('error', 'Failed to update record.');
                 }
-            } 
-            else 
-            {
+            } else {
                 session()->setFlashdata('validation_errors', $validation->getErrors());
                 return redirect()->back()->withInput()->with('validation_errors', $validation->getErrors());
             }
         }
 
         $data['row'] = $rw;
-        return view('App\Modules\Industries\Views\Admin\updateindustry', $data);
+        return view('App\Modules\platforms\Views\Admin\update', $data);
     }
 }

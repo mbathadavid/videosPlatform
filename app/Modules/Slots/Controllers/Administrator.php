@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Industries\Controllers;
+namespace App\Modules\Slots\Controllers;
 
 use App\Controllers\AdministratorController;
-use App\Modules\Industries\Models\Industries_m;
+use App\Modules\Slots\Models\Slots_m;
 
 use CodeIgniter\API\ResponseTrait;
 
@@ -12,18 +12,20 @@ class Administrator extends AdministratorController
     use ResponseTrait;
 
     //Index Function 
+
+
+
     public function index()
     {
         helper('url');
-       
-        $data = [];
-        helper(['form']);
 
-        $model =  new Industries_m();
+        $data = [];
+
+        $model =  new Slots_m();
 
         $validation = \Config\Services::validation();
         $validation->setRules([
-            'name' => 'required|is_unique[industries.name]'
+            'name' => 'required|is_unique[slots.name]'
         ]);
 
         if ($this->request->getPost() && $validation->withRequest($this->request)->run()) {
@@ -40,18 +42,18 @@ class Administrator extends AdministratorController
             $ok =  $model->save($formd);
 
             if ($ok) {
-                return redirect()->to('admin/industries/manage')->with('success', 'Successfully added');
+                return redirect()->to('admin/slots/manage')->with('success', 'Successfully added');
             }
         }
-        $data['payload'] = $model->get_all_industries();
+        $data['payload'] = $model->get_all_slots();
 
-        return view('App\Modules\Industries\Views\Admin\index', $data);
+        return view('App\Modules\Slots\Views\Admin\index', $data);
     }
 
 
-    function updateIndustry($id)
+    function updateSlot($id)
     {
-        $model = new Industries_m();
+        $model = new Slots_m();
 
 
         $rw = (object) $model->find($id);
@@ -64,7 +66,7 @@ class Administrator extends AdministratorController
 
             $validation = \Config\Services::validation();
             $validation->setRules([
-                'name' => 'required|is_unique[industries.name,id,' . $id . ']',
+                'name' => 'required|is_unique[slots.name,id,' . $id . ']',
                 'status' => 'required'
             ]);
 
@@ -76,23 +78,18 @@ class Administrator extends AdministratorController
                 $rw->modified_by =  auth()->user()->id;
 
 
-                if ($model->save($rw)) 
-                {
-                    return redirect()->to('admin/industries/manage')->with('success', 'Record updated successfully.');
-                } 
-                else 
-                {
+                if ($model->save($rw)) {
+                    return redirect()->to('admin/slots/manage')->with('success', 'Record updated successfully.');
+                } else {
                     return redirect()->back()->withInput()->with('error', 'Failed to update record.');
                 }
-            } 
-            else 
-            {
+            } else {
                 session()->setFlashdata('validation_errors', $validation->getErrors());
                 return redirect()->back()->withInput()->with('validation_errors', $validation->getErrors());
             }
         }
 
         $data['row'] = $rw;
-        return view('App\Modules\Industries\Views\Admin\updateindustry', $data);
+        return view('App\Modules\Slots\Views\Admin\update', $data);
     }
 }
