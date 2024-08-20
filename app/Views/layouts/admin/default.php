@@ -30,6 +30,9 @@
 
     <!-- Core JS -->
     <script src="<?php echo base_url() ?>/assets/admin/js/app.min.js"></script>
+
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/css/filepond/filepond.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/css/filepond/filepond-plugin-image-preview.min.css">
 </head>
 
 <body>
@@ -82,6 +85,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+    <!-- include FilePond library -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond.min.js"></script>
+
+    <!-- include FilePond plugins -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond-plugin-image-preview.min.js"></script>
+
+    <!-- include FilePond jQuery adapter -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond.jquery.js"></script>
     <script>
         $('.data-table, .datatable').DataTable({
             'columnDefs': [{
@@ -100,6 +111,38 @@
         });
     </script>
 
+    <script>
+        $(function() {
+
+            // First register any plugins
+            $.fn.filepond.registerPlugin(FilePondPluginImagePreview);
+
+            // Turn input element into a pond
+            $('.my-pond').filepond();
+
+            //Limit Files Selected
+            $('.my-pond').filepond({
+                // acceptedFileTypes: ['image/*', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-powerpoint', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/pdf', 'application/zip', 'application/x-zip-compressed', 'multipart/x-zip'], // Specify the allowed file types
+                acceptedFileTypes: ['video/mp4', 'audio/mpeg'],
+                // maxFileSize: '20MB', // Specify the maximum file size
+                name: 'files[]'
+            });
+
+            // Set allowMultiple property to true
+            $('.my-pond').filepond('allowMultiple', true);
+
+            // Listen for addfile event
+            $('.my-pond').on('FilePond:addfile', function(e) {
+                console.log('file added event', e);
+            });
+
+            // Manually add a file using the addfile method
+            // $('.my-pond').first().filepond('addFile', 'index.html').then(function(file){
+            //   console.log('file added', file);
+            // });
+
+        });
+    </script>
 
 
 
