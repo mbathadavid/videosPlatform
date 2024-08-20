@@ -48,7 +48,7 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                     <a href="<?php echo base_url('admin/media-houses/manage') ?>">Media Houses</a>
                 </li>
                 <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/slots)/i', $routePath)) echo 'active'; ?>">
-                    <a href="<?php echo base_url('admin/slotsmanage') ?>">Slots</a>
+                    <a href="<?php echo base_url('admin/slots/manage') ?>">Slots</a>
                 </li>
                 <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/platforms)/i', $routePath)) echo 'active'; ?>">
                     <a href="<?php echo base_url('admin/platforms/manage') ?>">Platforms</a>
