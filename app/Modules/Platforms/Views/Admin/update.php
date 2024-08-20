@@ -1,13 +1,14 @@
 <?php echo $this->extend('layouts/admin/default'); ?>
 <?php echo $this->section('content'); ?>
 
+
 <div class="row">
     <div class="col-md-8">
         <div class="card">
             <div class="card-body">
-                <h4>Media Houses</h4>
+                <h4>Industries</h4>
 
-                <div class="mt-8">
+                <div class="mt-6">
 
 
                     <hr>
@@ -20,18 +21,11 @@
 
                     <br>
                     <div class="form-group">
-                        <label>Category</label>
-                        <?php
-                        $cats =  ['Radio' => 'Radio', 'TV' => 'TV'];
-                        echo form_dropdown('category', ['' => ''] + $cats, $row->category, 'class="form-select " id="inlineFormSelectPref" placeholder="Media Name" required') ?>
+                        <label>Description</label>
+                        <textarea name="description" class="form-control"><?php echo $row->description?></textarea>
+                        
                     </div>
 
-                    <br>
-
-                    <div class="form-group">
-                        <label>Rate Card</label>
-                        <?php echo form_input('rate_card', $row->rate_card, 'class="form-control" placeholder="Rate Card" required') ?>
-                    </div>
 
                     <hr>
                     <div class="col-12">
