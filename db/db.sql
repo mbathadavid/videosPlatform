@@ -322,4 +322,26 @@ CREATE TABLE IF NOT EXISTS `clients` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE IF NOT EXISTS `mediaclips` (
+  `id` int(9) NOT NULL AUTO_INCREMENT,
+  `storytitle` text DEFAULT NULL,
+  `mediahouse` int(11) DEFAULT NULL,
+  `ratecard` int(11) DEFAULT NULL,
+  `datetime` int(11) DEFAULT NULL,
+  `slot` int(11) DEFAULT NULL,
+  `client` int(11) DEFAULT NULL,
+  `sector` text DEFAULT NULL,
+  `duration` text DEFAULT NULL,
+  `tonality` text DEFAULT NULL,
+  `journalist` text DEFAULT NULL,
+  `summary` text DEFAULT NULL,
+  `filepath` text DEFAULT NULL,
+  `created_on` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `updated_at` int(11) DEFAULT NULL,
+  `modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+
  
