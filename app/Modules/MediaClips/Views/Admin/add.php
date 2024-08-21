@@ -6,7 +6,11 @@
         <a href="<?php echo base_url('admin/media_clips') ?>" class="btn btn-success text-white float-end">All Media</a>
     </div>
     <div class="card-body">
-        <?php echo form_open_multipart(current_url()) ?>
+        <?php 
+            $attributes = ['class' => ''];
+
+            echo form_open_multipart(current_url(),$attributes) 
+        ?>
         <div class="row justify-content-center">
 
             <div class="col-md-6 col-lg-6">
@@ -22,7 +26,7 @@
                 </div>
                 <div class="form-group">
                     <label for="" class="form-label">Date & Time <span class="text-danger">*</span></label>
-                    <input type="date" name="datetime" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="datetime-local" name="datetime" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
                     <label>Slot <span class="text-danger">*</span></label>
@@ -36,14 +40,28 @@
                     echo form_dropdown('client', ['' => 'Select Client'] + $clients, '', 'class="form-select " id="inlineFormSelectPref" placeholder="Slot" required')
                     ?>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for="" class="form-label">Sector <span class="text-danger">*</span></label>
                     <input type="text" name="sector" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div> -->
+                <div class="form-group">
+                    <label for="">Attach Files</label>
+                    <input type="file" class="form-control" name="filepond" accept=".mp3,.mp4" />
+                        <!-- <div class="fallback">
+                            <input name="file" type="filepond" accept=".mp3,.mp4" multiple="">
+                        </div>
+                        <div class="dz-message needsclick">
+                            <div class="mb-3">
+                                <i class="display-4 text-muted bx bx-cloud-upload"></i>
+                            </div>
+
+                            <h5>Drop files here or click to upload.</h5>
+                        </div> -->
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-6">
-                
+
                 <div class="form-group">
                     <label for="" class="form-label">Duration <span class="text-danger">*</span></label>
                     <input type="text" name="duration" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -67,11 +85,6 @@
                 <div class="form-group mb-3">
                     <label for="" class="form-label">Summary <span class="text-danger">*</span></label>
                     <textarea name="summary" class="form-control" id="" cols="30" rows="3"></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="">Attach Files</label>
-                    <input type="file" class="" name="filepond" accept=".mp3,.mp4" />
                 </div>
 
                 <div class="form-group mt-2">
@@ -111,70 +124,70 @@
     // });
 </script>
 <script>
-    $(document).ready(function() {
-        // $('.filepond--browser').attr('accept', '.mp3,.mp4');
+    // $(document).ready(function() {
+    //     // $('.filepond--browser').attr('accept', '.mp3,.mp4');
 
-        $('.my-pond').filepond({
-            acceptedFileTypes: ['video/mp4'],
-            maxFileSize: '20MB',
-            // allowMultiple: true,
-            name: 'filepond'
-        });
+    //     $('.my-pond').filepond({
+    //         acceptedFileTypes: ['video/mp4'],
+    //         maxFileSize: '20MB',
+    //         // allowMultiple: true,
+    //         name: 'filepond'
+    //     });
 
-        // Listen for the addfile event
-        $('.my-pond').on('FilePond:addfile', function(e) {
-            console.log('file added event', e);
-        });
+    //     // Listen for the addfile event
+    //     $('.my-pond').on('FilePond:addfile', function(e) {
+    //         console.log('file added event', e);
+    //     });
 
-        // $('.filepond--browser').attr('accept', '.mp3,.mp4');
+    //     // $('.filepond--browser').attr('accept', '.mp3,.mp4');
 
-        // $('.my-pond').filepond({
-        //     allowMultiple: false,
-        //     credits: false,
-        //     checkValidity: true,
-        //     allowProcess: true,
-        //     stylePanelLayout: 'compact',
-        //     acceptedFileTypes: ['video/mp4', 'audio/mp3'],
-        //     name: 'filepond',
-        //     // labelIdle: '<p>Please upload admission documents </p> <span class="filepond--label-action" style="font-size: 150px"><i class="icomg-folder"></i></span>',
-        //     onprocessfiles: (e) => {
-        //         () => console.log('Done')
-        //     },
-        //     server: {
-        //         url: '<?php echo base_url() ?>',
+    //     // $('.my-pond').filepond({
+    //     //     allowMultiple: false,
+    //     //     credits: false,
+    //     //     checkValidity: true,
+    //     //     allowProcess: true,
+    //     //     stylePanelLayout: 'compact',
+    //     //     acceptedFileTypes: ['video/mp4', 'audio/mp3'],
+    //     //     name: 'filepond',
+    //     //     // labelIdle: '<p>Please upload admission documents </p> <span class="filepond--label-action" style="font-size: 150px"><i class="icomg-folder"></i></span>',
+    //     //     onprocessfiles: (e) => {
+    //     //         () => console.log('Done')
+    //     //     },
+    //     //     server: {
+    //     //         url: '<?php echo base_url() ?>',
 
-        //         process: {
-        //             url: 'admin/media_clips/upload',
-        //             method: 'POST',
-        //             instantUpload: false,
-        //             withCredentials: false,
-        //             headers: {},
-        //             timeout: 7000,
-        //             onload: (response) => {
-        //                 console.log(response);
-        //                 // window.location = '<?php echo base_url('admin/media_clips') ?>';
-        //             },
-        //             onerror: null,
-        //             data: {
-        //                 student: $('#pond_std').val()
-        //             },
+    //     //         process: {
+    //     //             url: 'admin/media_clips/upload',
+    //     //             method: 'POST',
+    //     //             instantUpload: false,
+    //     //             withCredentials: false,
+    //     //             headers: {},
+    //     //             timeout: 7000,
+    //     //             onload: (response) => {
+    //     //                 console.log(response);
+    //     //                 // window.location = '<?php echo base_url('admin/media_clips') ?>';
+    //     //             },
+    //     //             onerror: null,
+    //     //             data: {
+    //     //                 student: $('#pond_std').val()
+    //     //             },
 
-        //             ondata: (formData) => {
-        //                 // if ($('#pond_std').val()) {
-        //                 //     formData.append('student', $('#pond_std').val());
+    //     //             ondata: (formData) => {
+    //     //                 // if ($('#pond_std').val()) {
+    //     //                 //     formData.append('student', $('#pond_std').val());
 
-        //                 //     return formData;
-        //                 // } else {
-        //                 //     $('#pond_err').html(`No student Selected`);
-        //                 //     return false;
-        //                 // }
+    //     //                 //     return formData;
+    //     //                 // } else {
+    //     //                 //     $('#pond_err').html(`No student Selected`);
+    //     //                 //     return false;
+    //     //                 // }
 
-        //             }
-        //         },
+    //     //             }
+    //     //         },
 
 
-        //     }
-        // });
-    });
+    //     //     }
+    //     // });
+    // });
 </script>
 <?php echo $this->endSection(); ?>

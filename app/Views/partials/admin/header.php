@@ -1,185 +1,266 @@
-<div class="header-text-dark header-nav layout-vertical">
-                <div class="header-nav-wrap">
-                    <div class="header-nav-left">
-                        <div class="header-nav-item desktop-toggle">
-                            <div class="header-nav-item-select cursor-pointer">
-                                <i class="nav-icon feather icon-menu icon-arrow-right"></i>
-                            </div>
+<header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/logo-sm.svg" alt="" height="24">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/logo-sm.svg" alt="" height="24"> <span class="logo-txt">Minia</span>
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/logo-sm.svg" alt="" height="24">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/logo-sm.svg" alt="" height="24"> <span class="logo-txt">Minia</span>
+                                </span>
+                            </a>
                         </div>
-                        <div class="header-nav-item mobile-toggle">
-                            <div class="header-nav-item-select cursor-pointer">
-                                <i class="nav-icon feather icon-menu icon-arrow-right"></i>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                        <!-- App Search-->
+                        <form class="app-search d-none d-lg-block">
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <button class="btn btn-primary" type="button"><i class="bx bx-search-alt align-middle"></i></button>
                             </div>
-                        </div>
+                        </form>
                     </div>
-                    <div class="header-nav-right">
-                        <div class="header-nav-item">
-                            <div class="dropdown header-nav-item-select nav-notification">
-                                <div class="toggle-wrapper" id="nav-notification-dropdown" data-bs-toggle="dropdown">
-                                    <i class="header-nav-item-select nav-icon feather icon-bell"></i>
-                                </div>
-                                <div class="dropdown-menu dropdown-menu-end">
-                                    <div class="nav-notification-header">
-                                        <h5 class="mb-0">Notifications</h5>
-                                        <a href="#" class="font-size-sm">Mark All as Read</a>
-                                    </div>
-                                    <div class="nav-notification-body">
-                                        <div class="nav-notification-item ">
-                                            <div class="avatar avatar-circle avatar-image" style="width: 40px; height: 40px; line-height: 40px;">
-                                                <img src="<?php echo base_url() ?>/assets/admin/images/avatars/thumb-8.jpg" alt="">
-                                            </div>
-                                            <div class="ms-2">
-                                                <span>
-                                                    <span class="fw-bolder text-dark">Jean Bowman </span>
-                                                    <span>invited you to new project.</span>
-                                                </span>
-                                                <div class="font-size-sm fw-bold mt-1">
-                                                    <i class="feather icon-clock"></i>
-                                                    <span class="ms-1">4 months ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="nav-notification-item ">
-                                            <div class="bg-primary feather font-size-lg icon-info avatar avatar-circle" style="width: 40px; height: 40px; line-height: 40px;">                                            </div>
-                                            <div class="ms-2">
-                                                <span>
-                                                    <span class="fw-bolder text-dark"> </span>
-                                                    <span>Please submit your daily report.</span>
-                                                </span>
-                                                <div class="font-size-sm fw-bold mt-1">
-                                                    <i class="feather icon-clock"></i>
-                                                    <span class="ms-1">4 months ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="nav-notification-item ">
-                                            <div class="bg-success feather font-size-lg icon-info avatar avatar-circle" style="width: 40px; height: 40px; line-height: 40px;">                                            </div>
-                                            <div class="ms-2">
-                                                <span>
-                                                    <span class="fw-bolder text-dark"> </span>
-                                                    <span>Your request has been approved.</span>
-                                                </span>
-                                                <div class="font-size-sm fw-bold mt-1">
-                                                    <i class="feather icon-clock"></i>
-                                                    <span class="ms-1">4 months ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="nav-notification-item ">
-                                            <div class="avatar avatar-circle avatar-image" style="width: 40px; height: 40px; line-height: 40px;">
-                                                <img src="<?php echo base_url() ?>/assets/admin/images/avatars/thumb-4.jpg" alt="">
-                                            </div>
-                                            <div class="ms-2">
-                                                <span>
-                                                    <span class="fw-bolder text-dark">Jenifer Ruiz </span>
-                                                    <span>mentioned you in comment.</span>
-                                                </span>
-                                                <div class="font-size-sm fw-bold mt-1">
-                                                    <i class="feather icon-clock"></i>
-                                                    <span class="ms-1">4 months ago</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="nav-notification-item ">
-                                            <div class="bg-success feather font-size-lg icon-x-circle avatar avatar-circle" style="width: 40px; height: 40px; line-height: 40px;">                                            </div>
-                                            <div class="ms-2">
-                                                <span>
-                                                    <span class="fw-bolder text-dark"> </span>
-                                                    <span>Your request has been rejected.</span>
-                                                </span>
-                                                <div class="font-size-sm fw-bold mt-1">
-                                                    <i class="feather icon-clock"></i>
-                                                    <span class="ms-1">4 months ago</span>
-                                                </div>
-                                            </div>
+
+                    <div class="d-flex">
+
+                        <div class="dropdown d-inline-block d-lg-none ms-2">
+                            <button type="button" class="btn header-item" id="page-header-search-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i data-feather="search" class="icon-lg"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-search-dropdown">
+        
+                                <form class="p-3">
+                                    <div class="form-group m-0">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Search Result">
+
+                                            <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
                                         </div>
                                     </div>
-                                    <div class="nav-notification-footer">
-                                        <a href="#" class="font-size-sm">View All</a>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-none d-sm-inline-block">
+                            <button type="button" class="btn header-item"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img id="header-lang-img" src="<?php echo base_url() ?>/assets/admin/images/flags/us.jpg" alt="Header Language" height="16">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
+                                </a>
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
+                                    <img src="<?php echo base_url() ?>/assets/admin/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-none d-sm-inline-block">
+                            <button type="button" class="btn header-item" id="mode-setting-btn">
+                                <i data-feather="moon" class="icon-lg layout-mode-dark"></i>
+                                <i data-feather="sun" class="icon-lg layout-mode-light"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-none d-lg-inline-block ms-1">
+                            <button type="button" class="btn header-item"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i data-feather="grid" class="icon-lg"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+                                <div class="p-2">
+                                    <div class="row g-0">
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/brands/github.png" alt="Github">
+                                                <span>GitHub</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/brands/bitbucket.png" alt="bitbucket">
+                                                <span>Bitbucket</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/brands/dribbble.png" alt="dribbble">
+                                                <span>Dribbble</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-0">
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/brands/dropbox.png" alt="dropbox">
+                                                <span>Dropbox</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/brands/mail_chimp.png" alt="mail_chimp">
+                                                <span>Mail Chimp</span>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="dropdown-icon-item" href="#">
+                                                <img src="assets/images/brands/slack.png" alt="slack">
+                                                <span>Slack</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="header-nav-item">
-                            <div class="header-nav-item-select">
-                                <div class="toggle-wrapper" data-bs-toggle="modal" data-bs-target="#quick-view">
-                                    <i class="nav-icon feather icon-settings"></i>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon position-relative" id="page-header-notifications-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i data-feather="bell" class="icon-lg"></i>
+                                <span class="badge bg-danger rounded-pill">5</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="m-0"> Notifications </h6>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="#!" class="small text-reset text-decoration-underline"> Unread (3)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-simplebar style="max-height: 230px;">
+                                    <a href="#!" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/users/avatar-3.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">James Lemire</h6>
+                                                <div class="font-size-13 text-muted">
+                                                    <p class="mb-1">It will seem like simplified English.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 avatar-sm me-3">
+                                                <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                    <i class="bx bx-cart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your order is placed</h6>
+                                                <div class="font-size-13 text-muted">
+                                                    <p class="mb-1">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#!" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 avatar-sm me-3">
+                                                <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your item is shipped</h6>
+                                                <div class="font-size-13 text-muted">
+                                                    <p class="mb-1">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#!" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <img src="<?php echo base_url() ?>/assets/admin/images/users/avatar-6.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Salena Layfield</h6>
+                                                <div class="font-size-13 text-muted">
+                                                    <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="p-2 border-top d-grid">
+                                    <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span>View More..</span> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="header-nav-item">
-                            <div class="dropdown header-nav-item-select">
-                                <div class="toggle-wrapper" id="nav-lang-dropdown" data-bs-toggle="dropdown">
-                                    <div class="avatar avatar-circle avatar-image" style="width: 22px; height: 22px; line-height: 22px;">
-                                        <img src="<?php echo base_url() ?>/assets/admin/images/thumbs/en_US.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="dropdown-menu dropdown-menu-end">
-                                    <a href="javascript:void(0)" class="dropdown-item">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-circle avatar-image" style="width: 18px; height: 18px; line-height: 18px;">
-                                                <img src="<?php echo base_url() ?>/assets/admin/images/thumbs/en_US.png" alt="">
-                                            </div>
-                                            <span class="ms-2">English</span>
-                                        </div>
-                                    </a>
-                                    <a href="javascript:void(0)" class="dropdown-item">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-circle avatar-image" style="width: 18px; height: 18px; line-height: 18px;">
-                                                <img src="<?php echo base_url() ?>/assets/images/thumbs/fr_FR.png" alt="">
-                                            </div>
-                                            <span class="ms-2">French</span>
-                                        </div>
-                                    </a>
-                                </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item right-bar-toggle me-2">
+                                <i data-feather="settings" class="icon-lg"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="<?php echo base_url() ?>/assets/admin/images/users/avatar-1.jpg"
+                                    alt="Header Avatar">
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium">Shawn L.</span>
+                                <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <a class="dropdown-item" href="apps-contacts-profile.html"><i class="mdi mdi mdi-face-man font-size-16 align-middle me-1"></i> Profile</a>
+                                <a class="dropdown-item" href="auth-lock-screen.html"><i class="mdi mdi-lock font-size-16 align-middle me-1"></i> Lock Screen</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="<?php echo base_url('logout') ?>"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
                             </div>
                         </div>
-                        <div class="header-nav-item">
-                            <div class="dropdown header-nav-item-select nav-profile" >
-                                <div class="toggle-wrapper" id="nav-profile-dropdown" data-bs-toggle="dropdown">
-                                    <div class="avatar avatar-circle avatar-image" style="width: 35px; height: 35px; line-height: 35px;">
-                                        <img src="<?php echo base_url() ?>/assets/admin/images/avatars/thumb-1.jpg" alt="">
-                                    </div>
-                                    <span class="fw-bold mx-1">Julio Baker</span>
-                                    <i class="feather icon-chevron-down"></i>
-                                </div>
-                                <div class="dropdown-menu dropdown-menu-end">
-                                    <div class="nav-profile-header">
-                                       <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-circle avatar-image">
-                                                <img src="<?php echo base_url() ?>/assets/admin/images/avatars/thumb-1.jpg" alt="">
-                                            </div>
-                                            <div class="d-flex flex-column ms-1">
-                                                <span class="fw-bold text-dark">Julio Baker</span>
-                                                <span class="font-size-sm">Julio@themenate.com</span>
-                                            </div>
-                                       </div>
-                                    </div>
-                                    <a href="javascript:void(0)" class="dropdown-item">
-                                       <div class="d-flex align-items-center">
-                                           <i class="font-size-lg me-2 feather icon-user"></i>
-                                           <span>Profile</span>
-                                        </div>
-                                    </a>
-                                    <a href="javascript:void(0)" class="dropdown-item">
-                                       <div class="d-flex align-items-center">
-                                           <i class="font-size-lg me-2 feather icon-settings"></i>
-                                           <span>Settings</span>
-                                        </div>
-                                    </a>
-                                    <a href="javascript:void(0)" class="dropdown-item">
-                                       <div class="d-flex align-items-center"><i class="font-size-lg me-2 feather icon-life-buoy"></i>
-                                        <span>Support</span>
-                                    </div>
-                                    </a>
-                                    <a href="<?php echo base_url('logout') ?>" class="dropdown-item">
-                                       <div class="d-flex align-items-center"><i class="font-size-lg me-2 feather icon-power"></i>
-                                        <span>Sign Out</span>
-                                    </div>
-                                    </a>
-                                 </div>
-                            </div>
-                        </div>     
+
                     </div>
                 </div>
-            </div>    
+            </header>

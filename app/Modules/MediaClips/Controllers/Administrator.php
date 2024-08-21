@@ -49,7 +49,7 @@ class Administrator extends AdministratorController
                 'datetime' => strtotime($post->datetime),
                 'slot' => $post->slot,
                 'client' => $post->client,
-                'sector' => $post->sector,
+                // 'sector' => $post->sector,
                 'duration' => $post->duration,
                 'tonality' => $post->tonality,
                 'journalist' => $post->journalist,
@@ -59,6 +59,11 @@ class Administrator extends AdministratorController
             );
 
             $file = $this->request->getFile('filepond');
+
+            // echo "<pre>";
+            //     print_r($file);
+            // echo "</pre>";
+            // die;
 
             $fileRules = [
                 'filepond' => [
@@ -111,16 +116,17 @@ class Administrator extends AdministratorController
 
 
     //Function to upload file
-    public function create()
+    public function view($id)
     {
-        $post = (object) $this->request->getPost();
+        $model = new MediaClips_m();
+        
+        $data['clip'] = (object) $model->find($id);
 
-        // $upload = $this->request->getFile('filepond');
-        $file = $this->request->getFile('filepond');
+        $data['industries'] = $this->gen->populate('industries', 'id', 'name');
+        $data['mediahouses'] = $this->gen->populate('mediahouses', 'id', 'name');
+        $data['slots'] = $this->gen->populate('slots', 'id', 'name');
+        $data['clients'] = $this->gen->populate('clients', 'id', 'name');
 
-        echo "<pre>";
-        print_r($this->request);
-        echo "</pre>";
-        // die;
+        return view('App\Modules\MediaClips\Views\Admin\view', $data);
     }
 }

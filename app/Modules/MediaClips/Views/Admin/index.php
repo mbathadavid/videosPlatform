@@ -58,7 +58,7 @@
                                         <td><?php echo $tonalities[$c->tonality] ?></td>
                                         <td><?php echo $c->journalist ?></td>
                                         <td><?php echo $c->summary ?></td>
-                                        <td><a href="<?php echo $c->filepath ?>" class="btn btn-sm btn-success" target="_blank">View File</a></td>
+                                        <td><a href="<?php echo base_url('admin/media_clips/view/'.$c->id) ?>" class="btn btn-sm btn-success" target="">View File</a></td>
                                     </tr>
                                 <?php }  ?>
                             </tbody>

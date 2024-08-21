@@ -6,11 +6,11 @@
 <div class="row justify-content-center">
     <div class="col-md-9">
         <div class="card row mx-0 flex-row overflow-hidden">
-            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets/admin/images/others/bg-2.jpg');">
+            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets2/admin/images/others/bg-2.jpg');">
                 <div>
                     <div class="mb-5">
                         <div class="logo">
-                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets/admin/images/logo/logo-white.png" style="height: 50px;">
+                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets2/admin/images/logo/logo-white.png" style="height: 50px;">
                         </div>
                     </div>
                     <h3 class="text-white">Make your work easier</h3>
@@ -64,17 +64,17 @@
                         <div class="row">
                             <div class="col px-1">
                                 <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets/admin/images/thumbs/thumb-1.png" alt="" style="max-width: 20px;">
+                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-1.png" alt="" style="max-width: 20px;">
                                 </button>
                             </div>
                             <div class="col px-1">
                                 <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets/admin/images/thumbs/thumb-2.png" alt="" style="max-width: 20px;">
+                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-2.png" alt="" style="max-width: 20px;">
                                 </button>
                             </div>
                             <div class="col px-1">
                                 <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets/admin/images/thumbs/thumb-3.png" alt="" style="max-width: 20px;">
+                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-3.png" alt="" style="max-width: 20px;">
                                 </button>
                             </div>
                         </div>

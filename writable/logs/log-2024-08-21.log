@@ -366,3 +366,1517 @@ INFO - 2024-08-21 12:33:02 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-08-21 12:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-21 12:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-21 12:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 14:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:38:27 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:38:27 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:38:27 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:40:09 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:40:09 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:43:22 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:44:49 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:46:48 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:46:48 --> ErrorException: Undefined property: stdClass::$rate_card
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 48.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$rate_card', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:47:27 --> ErrorException: Undefined property: stdClass::$sector
+in APPPATH\Modules\MediaClips\Controllers\Administrator.php on line 52.
+ 1 APPPATH\Modules\MediaClips\Controllers\Administrator.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$sector', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Controllers\\Administrator.php', 52, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 15:54:57 --> ErrorException: Undefined variable: client
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 11.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 15:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:10:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:10:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:21 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:21 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:21 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:30 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:30 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:18:30 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:40 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:40 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:40 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:20:49 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:21:27 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:21:27 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:21:28 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:12 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:12 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:13 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:22:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:23:44 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:23:44 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:23:44 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:24:34 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:24:35 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:24:35 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:25:03 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:25:03 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:25:03 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('mejs-controls.svg')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:26:44 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:26:44 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:38:41 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:38:41 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:39:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:39:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:39:41 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:39:42 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:40:09 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:40:09 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:40:43 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:40:43 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:41:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:41:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:42:33 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:42:33 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:43:04 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:43:05 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:43:37 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:43:37 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(125): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:44:47 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:44:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:47:17 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:47:17 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:49:06 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:49:06 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:52:06 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:52:07 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:52:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:52:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:53:05 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:53:05 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:53:47 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:53:47 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:54:36 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:54:36 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:54:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:54:56 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:55:08 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:55:09 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:16 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:16 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:29 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:29 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:41 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:56:41 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:57:08 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:57:08 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:57:32 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:57:32 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 16:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:59:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 16:59:48 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 16:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 17:00:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 17:00:23 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:13:17 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:13:17 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:14:17 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:14:17 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:14:26 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:14:26 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:14:49 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:14:49 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:14:52 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:14:52 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-21 17:14:54 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-21 17:14:54 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 17:15:05 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'giftbox.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-21 17:15:05 --> ErrorException: Undefined property: stdClass::$filepath
+in APPPATH\Modules\MediaClips\Views\Admin\view.php on line 12.
+ 1 APPPATH\Modules\MediaClips\Views\Admin\view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$filepath', 'E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\MediaClips\\Views\\Admin\\view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('App\\Modules\\MediaClips\\Views\\Admin\\view', [], true)
+ 5 APPPATH\Modules\MediaClips\Controllers\Administrator.php(130): view('App\\Modules\\MediaClips\\Views\\Admin\\view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Modules\MediaClips\Controllers\Administrator->view('assets', 'images', 'brands', 'slack.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Modules\MediaClips\Controllers\Administrator))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-21 17:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-21 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
