@@ -17,28 +17,28 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
 
                 <li>
                     <a href="<?php echo base_url('admin'); ?>">
-                        <i data-feather="home"></i>
+                        <i class="fas fa-home"></i>
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="<?php echo base_url('admin/clients') ?>">
-                        <i data-feather="home"></i>
+                        <i class="fas fa-users"></i>
                         <span data-key="t-dashboard">Clients</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="<?php echo base_url('admin/media_clips') ?>">
-                        <i data-feather="home"></i>
+                        <i class="fas fa-folder"></i>
                         <span data-key="t-dashboard">Media Clips</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="briefcase"></i>
+                        <i class="fas fa-box"></i>
                         <span data-key="t-components">Components</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -49,39 +49,22 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                     </ul>
                 </li>
 
+                <li class="menu-title mt-2" data-key="t-components">Users Management</li>
                 <li>
-                    <a href="layouts-horizontal.html">
-                        <i data-feather="layout"></i>
-                        <span data-key="t-horizontal">Horizontal</span>
+                    <a href="<?php echo base_url('admin/users') ?>">
+                        <i class="fas fa-user-friends"></i>
+                        <span data-key="t-horizontal">Users</span>
                     </a>
                 </li>
 
-                <li class="menu-title mt-2" data-key="t-components">Users Management</li>
-
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="briefcase"></i>
-                        <span data-key="t-components">Components</span>
+                        <i class="fas fa-user-cog"></i>
+                        <span data-key="t-components">Groups & Permissions</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="ui-alerts.html" data-key="t-alerts">Alerts</a></li>
-                        <li><a href="ui-buttons.html" data-key="t-buttons">Buttons</a></li>
-                        <li><a href="ui-cards.html" data-key="t-cards">Cards</a></li>
-                        <li><a href="ui-carousel.html" data-key="t-carousel">Carousel</a></li>
-                        <li><a href="ui-dropdowns.html" data-key="t-dropdowns">Dropdowns</a></li>
-                        <li><a href="ui-grid.html" data-key="t-grid">Grid</a></li>
-                        <li><a href="ui-images.html" data-key="t-images">Images</a></li>
-                        <li><a href="ui-modals.html" data-key="t-modals">Modals</a></li>
-                        <li><a href="ui-offcanvas.html" data-key="t-offcanvas">Offcanvas</a></li>
-                        <li><a href="ui-progressbars.html" data-key="t-progress-bars">Progress Bars</a></li>
-                        <li><a href="ui-placeholders.html" data-key="t-progress-bars">Placeholders</a></li>
-                        <li><a href="ui-tabs-accordions.html" data-key="t-tabs-accordions">Tabs & Accordions</a></li>
-                        <li><a href="ui-typography.html" data-key="t-typography">Typography</a></li>
-                        <li><a href="ui-toasts.html" data-key="t-typography">Toasts</a></li>
-                        <li><a href="ui-video.html" data-key="t-video">Video</a></li>
-                        <li><a href="ui-general.html" data-key="t-general">General</a></li>
-                        <li><a href="ui-colors.html" data-key="t-colors">Colors</a></li>
-                        <li><a href="ui-utilities.html" data-key="t-colors">Utilities</a></li>
+                        <li><a href="<?php echo base_url('admin/groups/add') ?>" data-key="t-alerts">User Groups</a></li>
+                        <li><a href="<?php echo base_url('admin/permissions') ?>" data-key="t-buttons">Permissions</a></li>
                     </ul>
                 </li>
 

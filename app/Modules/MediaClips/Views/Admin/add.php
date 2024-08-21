@@ -6,10 +6,10 @@
         <a href="<?php echo base_url('admin/media_clips') ?>" class="btn btn-success text-white float-end">All Media</a>
     </div>
     <div class="card-body">
-        <?php 
-            $attributes = ['class' => ''];
+        <?php
+        $attributes = [];
 
-            echo form_open_multipart(current_url(),$attributes) 
+        echo form_open_multipart(current_url(), $attributes)
         ?>
         <div class="row justify-content-center">
 
@@ -34,7 +34,7 @@
                     echo form_dropdown('slot', ['' => 'Select Slot'] + $slots, '', 'class="form-select " id="inlineFormSelectPref" placeholder="Slot" required')
                     ?>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-2">
                     <label>Client <span class="text-danger">*</span></label>
                     <?php
                     echo form_dropdown('client', ['' => 'Select Client'] + $clients, '', 'class="form-select " id="inlineFormSelectPref" placeholder="Slot" required')
@@ -44,20 +44,6 @@
                     <label for="" class="form-label">Sector <span class="text-danger">*</span></label>
                     <input type="text" name="sector" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div> -->
-                <div class="form-group">
-                    <label for="">Attach Files</label>
-                    <input type="file" class="form-control" name="filepond" accept=".mp3,.mp4" />
-                        <!-- <div class="fallback">
-                            <input name="file" type="filepond" accept=".mp3,.mp4" multiple="">
-                        </div>
-                        <div class="dz-message needsclick">
-                            <div class="mb-3">
-                                <i class="display-4 text-muted bx bx-cloud-upload"></i>
-                            </div>
-
-                            <h5>Drop files here or click to upload.</h5>
-                        </div> -->
-                </div>
             </div>
 
             <div class="col-md-6 col-lg-6">
@@ -85,6 +71,17 @@
                 <div class="form-group mb-3">
                     <label for="" class="form-label">Summary <span class="text-danger">*</span></label>
                     <textarea name="summary" class="form-control" id="" cols="30" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="">Attach Files</label>
+                    <input type="file" class="form-control" name="filepond" accept=".mp3,.mp4" /> -->
+                    <!-- Dropzone file input -->
+                    <div class="dropzone" id="myDropzone">
+                        <div class="dz-message">Drag & drop your image or click to select</div>
+                    </div>
+                    <input type="file" name="filepond" id="fileInput" style="display: none;">
+
                 </div>
 
                 <div class="form-group mt-2">
@@ -190,4 +187,52 @@
     //     // });
     // });
 </script>
+<script>
+    Dropzone.autoDiscover = false;
+
+    var isFileInputClicked = false; // Flag to track if the file input has been clicked
+
+    // Initialize Dropzone
+    var myDropzone = new Dropzone("#myDropzone", {
+        url: "/", // Dummy URL since we're not actually uploading
+        autoProcessQueue: false,
+        uploadMultiple: false,
+        maxFilesize: 2,
+        acceptedFiles: "image/*",
+        addRemoveLinks: true,
+
+        init: function () {
+            var dropzoneInstance = this;
+
+            // Trigger file input click on Dropzone click
+            this.element.addEventListener("click", function (event) {
+                if (!isFileInputClicked) {
+                    isFileInputClicked = true; // Set the flag to true to prevent multiple triggers
+                    document.getElementById("fileInput").click();
+                }
+            });
+
+            // Handle file input change
+            document.getElementById("fileInput").addEventListener("change", function (event) {
+                var files = event.target.files;
+                
+                // Add each selected file to Dropzone
+                for (var i = 0; i < files.length; i++) {
+                    var file = files[i];
+                    dropzoneInstance.addFile(file); // Adds file to Dropzone for previewing
+                }
+
+                // Reset the flag after the file has been selected
+                isFileInputClicked = false;
+            });
+
+            // Remove file from the input when removed from Dropzone
+            this.on("removedfile", function () {
+                document.getElementById("fileInput").value = "";
+            });
+        }
+    });
+</script>
+
+
 <?php echo $this->endSection(); ?>

@@ -34,13 +34,15 @@
                                 <td><?php echo $g->title; ?></td>
                                 <td><?php echo $g->description; ?></td>
                                 <td>
-                                    <button id="btnGroupDrop1" type="button" class="btn btn-success btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Action
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign_modules/' . $g->id) ?>">Assign Modules</a></li>
-                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign/' . $g->id) ?>">Assign Permissions</a></li>
-                                    </ul>
+                                    <div class="dropdown">
+                                        <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Action <i class="mdi mdi-chevron-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <!-- <a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign_modules/' . $g->id) ?>">Assign Modules</a> -->
+                                            <a class="dropdown-item" href="<?php echo base_url('admin/permissions/assign/' . $g->id) ?>">Assign Permissions</a>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                         <?php } ?>
@@ -53,6 +55,6 @@
 </div>
 
 <script>
-    
+
 </script>
 <?= $this->endSection() ?>

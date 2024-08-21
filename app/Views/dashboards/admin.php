@@ -1,3 +1,7 @@
+<?= $this->extend('layouts/admin/default') ?>
+
+
+<?= $this->section('content') ?>
 <div class="row">
     <div class="col-xl-3 col-md-6">
         <!-- card -->
@@ -1515,3 +1519,4 @@
     </div>
     <!-- end col -->
 </div><!-- end row -->
+<?= $this->endSection() ?>

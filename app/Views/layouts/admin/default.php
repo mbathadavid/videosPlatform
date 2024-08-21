@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Dashboard | Minia - Minimal Admin & Dashboard Template</title>
+    <title>R MEDIAHUB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -18,7 +18,8 @@
     <link href="<?php echo base_url() ?>/assets/admin/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
 
     <!-- dropzone css -->
-    <link href="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
 
     <!-- preloader css -->
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/admin/css/preloader.min.css" type="text/css" />
@@ -108,6 +109,10 @@
     
     <script src="<?php echo base_url() ?>/assets/admin/to/build/lang/zh.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+
+     <!-- Icons Css -->
+     <link href="<?php echo base_url() ?>/assets/admin/css/icons.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -194,8 +199,13 @@
 
     <script src="<?php echo base_url() ?>/assets/admin/js/app.js"></script>
 
+    <!-- fontawesome icons init -->
+    <script src="<?php echo base_url() ?>/assets/admin/js/pages/fontawesome.init.js"></script>
+
+
     <!-- dropzone js -->
-    <script src="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.js"></script>
+    <!-- <script src="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script> -->
 
     <script>
         $('video, audio').mediaelementplayer({

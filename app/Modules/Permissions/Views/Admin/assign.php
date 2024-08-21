@@ -79,7 +79,7 @@
                             ?>
                                     <label>
                                         <input class="form-check-input" type="checkbox" id="<?php echo $key ?>" name="perms[]" value="<?php echo strtolower($key) . '.' . strtolower($val) ?>" <?php echo in_array($theperm,$assigned) ? "checked" : "" ?>>
-                                        <?php echo ucwords($text) ?> </label><br><br>
+                                        <?php echo ucwords($text) ?> </label><br>
                             <?php
                                 endforeach;
                                 echo '</div>';

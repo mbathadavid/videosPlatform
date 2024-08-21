@@ -91,17 +91,19 @@
                                                 ?>
                                             </td>
                                             <td>
-                                                <button id="btnGroupDrop1" type="button" class="btn btn-success btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Action
-                                                </button>
-                                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                                    <li><a class="dropdown-item" href="<?php echo base_url('admin/clients/edit/' . $cl->id) ?>">Edit</a></li>
-                                                    <?php if ($cl->status == 1) { ?>
-                                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/clients/suspend/' . $cl->id . '/0') ?>">Deactivate</a></li>
-                                                    <?php } else { ?>
-                                                        <li><a class="dropdown-item" href="<?php echo base_url('admin/clients/suspend/' . $cl->id . '/1') ?>">Activate</a></li>
-                                                    <?php } ?>
-                                                </ul>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Action <i class="mdi mdi-chevron-down"></i>
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="<?php echo base_url('admin/clients/edit/' . $cl->id) ?>">Edit</a>
+                                                        <?php if ($cl->status == 1) { ?>
+                                                        <a class="dropdown-item" href="<?php echo base_url('admin/clients/suspend/' . $cl->id . '/0') ?>">Deactivate</a>
+                                                        <?php } else { ?>
+                                                        <a class="dropdown-item" href="<?php echo base_url('admin/clients/suspend/' . $cl->id . '/1') ?>">Activate</a>
+                                                        <?php } ?>
+                                                    </div>
+                                                </div>
                                             </td>
                                         </tr>
                                     <?php }
