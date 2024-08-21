@@ -46,4 +46,15 @@ class Clients_m extends Model
 
         return $this->getInsertID();
     }
+
+    //Function to retrieve clients
+    function clients($status = false) {
+        $list = $this->db->table('clients')
+                        // ->where('status',$status)
+                        ->orderBy('id','DESC')
+                        ->get()
+                        ->getResult();
+
+        return $list;
+    }
 }

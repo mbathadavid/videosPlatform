@@ -28,7 +28,8 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                                     preg_match('/^(admin\/industries)/i', $routePath) ||
                                     preg_match('/^(admin\/media-houses)/i', $routePath) ||
                                     preg_match('/^(admin\/slots)/i', $routePath) ||
-                                    preg_match('/^(admin\/platforms)/i', $routePath)
+                                    preg_match('/^(admin\/platforms)/i', $routePath) ||
+                                    preg_match('/^(admin\/clients)/i', $routePath)
                                 ) echo 'open'; ?>">
             <a class=" nav-submenu-title">
                 <i class="feather icon-package"></i>
@@ -39,8 +40,12 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                                                                     preg_match('/^(admin\/industries)/i', $routePath) ||
                                                                     preg_match('/^(admin\/media-houses)/i', $routePath) ||
                                                                     preg_match('/^(admin\/slots)/i', $routePath) ||
-                                                                    preg_match('/^(admin\/platforms)/i', $routePath)
+                                                                    preg_match('/^(admin\/platforms)/i', $routePath) ||
+                                                                    preg_match('/^(admin\/clients)/i', $routePath)
                                                                 ) echo 'block'; ?>">
+                <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/clients)/i', $routePath)) echo 'active'; ?>">
+                    <a href="<?php echo base_url('admin/clients') ?>">Clients</a>
+                </li>
                 <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/industries)/i', $routePath)) echo 'active'; ?>">
                     <a href="<?php echo base_url('admin/industries/manage') ?>">Industries</a>
                 </li>
@@ -56,6 +61,14 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
 
             </ul>
         </li>
+
+        <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/media_clips)/i', $routePath)) echo 'active'; ?>">
+            <a href="<?php echo base_url('admin/media_clips'); ?>">
+                <i class="feather icon-home"></i>
+                <span class="nav-menu-item-title">Media Clips</span>
+            </a>
+        </li>
+
         <li class="nav-submenu open">
             <a class="nav-submenu-title">
                 <i class="feather icon-file-text"></i>

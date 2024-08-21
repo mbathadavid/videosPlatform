@@ -30,6 +30,9 @@
 
     <!-- Core JS -->
     <script src="<?php echo base_url() ?>/assets/admin/js/app.min.js"></script>
+
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/css/filepond/filepond.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/css/filepond/filepond-plugin-image-preview.min.css">
 </head>
 
 <body>
@@ -82,6 +85,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+    <!-- include FilePond library -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond.min.js"></script>
+
+    <!-- include FilePond plugins -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond-plugin-image-preview.min.js"></script>
+
+    <!-- include FilePond jQuery adapter -->
+    <script src="<?php echo base_url() ?>assets/admin/js/filepond/filepond.jquery.js"></script>
     <script>
         $('.data-table, .datatable').DataTable({
             'columnDefs': [{
@@ -99,9 +110,6 @@
             }
         });
     </script>
-
-
-
 
     <?php if (session()->getFlashdata('success')) : ?>
         <script>
