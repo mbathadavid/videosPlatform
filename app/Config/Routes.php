@@ -79,6 +79,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
     $routes->group('media_clips', ['namespace' => 'App\Modules\MediaClips\Controllers', 'filter' => 'auth'], function ($routes) {
         $routes->add('/', 'Administrator::index');
         $routes->add('add', 'Administrator::add');
+        $routes->add('upload', 'Administrator::create');
     });
 });
 

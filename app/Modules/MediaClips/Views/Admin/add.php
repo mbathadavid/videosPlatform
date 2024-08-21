@@ -6,7 +6,7 @@
         <a href="<?php echo base_url('admin/media_clips') ?>" class="btn btn-success text-white float-end">All Media</a>
     </div>
     <div class="card-body">
-        <?php echo form_open(current_url()) ?>
+        <?php echo form_open_multipart(current_url()) ?>
         <div class="row justify-content-center">
 
             <div class="col-md-6 col-lg-6">
@@ -37,8 +37,8 @@
                     ?>
                 </div>
                 <div class="form-group">
-                    <label for="">Attach Files (if any)</label>
-                    <input type="file" class="my-pond" name="files[]" />
+                    <label for="">Attach Files</label>
+                    <input type="file" class="my-pond" name="files[]" accept=".mp3,.mp4" />
                 </div>
             </div>
 
@@ -80,4 +80,51 @@
         <?php echo form_close() ?>
     </div>
 </div>
+
+<script>
+    // $(function() {
+
+    //     // First register any plugins
+    //     $.fn.filepond.registerPlugin(FilePondPluginImagePreview);
+
+    //     // Turn input element into a pond
+    //     $('.my-pond').filepond();
+
+    //     //Limit Files Selected
+    //     $('.my-pond').filepond({
+    //         // acceptedFileTypes: ['image/*', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-powerpoint', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/pdf', 'application/zip', 'application/x-zip-compressed', 'multipart/x-zip'], // Specify the allowed file types
+    //         acceptedFileTypes: ['video/mp4', 'audio/mp3'],
+    //         maxFileSize: '20MB', // Specify the maximum file size
+    //         name: 'images[]'
+    //     });
+
+    //     // Set allowMultiple property to true
+    //     $('.my-pond').filepond('allowMultiple', true);
+
+    //     // Listen for addfile event
+    //     $('.my-pond').on('FilePond:addfile', function(e) {
+    //         console.log('file added event', e);
+    //     });
+
+    // });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.filepond--browser').attr('accept', '.mp3,.mp4');
+        
+        $('.my-pond').filepond({
+            acceptedFileTypes: ['video/mp4'],
+            maxFileSize: '20MB',
+            allowMultiple: true,
+            name: 'images[]'
+        });
+
+        // Listen for the addfile event
+        $('.my-pond').on('FilePond:addfile', function(e) {
+            console.log('file added event', e);
+        });
+
+        // $('.filepond--browser').attr('accept', '.mp3,.mp4');
+    });
+</script>
 <?php echo $this->endSection(); ?>

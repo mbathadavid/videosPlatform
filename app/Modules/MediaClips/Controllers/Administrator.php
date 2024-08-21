@@ -43,4 +43,10 @@ class Administrator extends AdministratorController
 
         return view('App\Modules\MediaClips\Views\Admin\add', $data);
     }
+
+
+    //Function to upload file
+    public function create() {
+        echo "Nisyavika";
+    }
 }

@@ -111,41 +111,6 @@
         });
     </script>
 
-    <script>
-        $(function() {
-
-            // First register any plugins
-            $.fn.filepond.registerPlugin(FilePondPluginImagePreview);
-
-            // Turn input element into a pond
-            $('.my-pond').filepond();
-
-            //Limit Files Selected
-            $('.my-pond').filepond({
-                // acceptedFileTypes: ['image/*', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.ms-powerpoint', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/pdf', 'application/zip', 'application/x-zip-compressed', 'multipart/x-zip'], // Specify the allowed file types
-                acceptedFileTypes: ['video/mp4', 'audio/mpeg'],
-                // maxFileSize: '20MB', // Specify the maximum file size
-                name: 'files[]'
-            });
-
-            // Set allowMultiple property to true
-            $('.my-pond').filepond('allowMultiple', true);
-
-            // Listen for addfile event
-            $('.my-pond').on('FilePond:addfile', function(e) {
-                console.log('file added event', e);
-            });
-
-            // Manually add a file using the addfile method
-            // $('.my-pond').first().filepond('addFile', 'index.html').then(function(file){
-            //   console.log('file added', file);
-            // });
-
-        });
-    </script>
-
-
-
     <?php if (session()->getFlashdata('success')) : ?>
         <script>
             $.toast({
