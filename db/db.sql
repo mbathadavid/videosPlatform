@@ -343,5 +343,20 @@ CREATE TABLE IF NOT EXISTS `mediaclips` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text DEFAULT NULL,
+  `email` text DEFAULT NULL,
+  `phone` text DEFAULT NULL,
+  `industry` int(11) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `status` int(11) DEFAULT 1,
+  `user_id` int(11) DEFAULT NULL,
+  `created_on` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `modified_on` int(11) DEFAULT NULL,
+  `modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
 
  
