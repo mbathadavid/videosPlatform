@@ -116,6 +116,13 @@
 
     <!--Toaster Popup message CSS -->
     <link href="<?php echo base_url() ?>assets/admin/vendors/toast-master/css/jquery.toast.css" rel="stylesheet">
+
+    <!-- DataTables -->
+    <link href="<?php echo base_url() ?>assets/admin/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Responsive datatable examples -->
+    <link href="<?php echo base_url() ?>assets/admin/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -208,9 +215,43 @@
     <!-- Popup message jquery -->
     <script src="<?php echo base_url() ?>assets/admin/vendors/toast-master/js/jquery.toast.js"></script>
 
-    <!-- dropzone js -->
-    <!-- <script src="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script> -->
+    <!-- Required datatable js -->
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <!-- Buttons examples -->
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/jszip/jszip.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/pdfmake/build/pdfmake.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/pdfmake/build/vfs_fonts.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+
+    <!-- Responsive examples -->
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/admin/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+    <!-- Datatable init js -->
+    <script src="<?php echo base_url() ?>assets/admin/js/pages/datatables.init.js"></script>
+
+    <script>
+        $('.data-table, .datatable').DataTable({
+            'columnDefs': [{
+                'orderable': false,
+                'targets': 0
+            }],
+
+            dom: '<"top"lBf>rtip',
+            buttons: [
+                'copy', 'excel', 'pdf', 'print'
+            ],
+            pageLength: 25,
+            initComplete: function() {
+                // Optionally, you can add custom styling here if needed
+            }
+        });
+    </script>
 
     <script>
         $('video, audio').mediaelementplayer({

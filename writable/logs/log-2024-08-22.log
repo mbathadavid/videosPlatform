@@ -1223,3 +1223,111 @@ INFO - 2024-08-22 13:34:21 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-08-22 13:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-22 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-22 13:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 13:46:22 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-22 13:46:22 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 13:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 13:46:26 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-22 13:46:26 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 13:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 13:47:31 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-22 13:47:31 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 13:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 13:56:42 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-22 13:56:42 --> [DEPRECATED] Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in APPPATH\Modules\Clients\Controllers\Administrator.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\projects\\videosPlatform\\app\\Modules\\Clients\\Controllers\\Administrator.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Clients\\Controllers\\Administrator')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Clients\\Controllers\\Administrator')
+ 5 [internal function]: spl_autoload_call('App\\Modules\\Clients\\Controllers\\Administrator')
+ 6 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Modules\\Clients\\Controllers\\Administrator', true)
+ 7 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 13:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
