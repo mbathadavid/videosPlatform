@@ -22,7 +22,7 @@
                 </div>
                 <div class="form-group">
                     <label for="" class="form-label">Date & Time <span class="text-danger">*</span></label>
-                    <input type="date" name="datetime" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="datetime-local" name="datetime" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
                     <label>Slot <span class="text-danger">*</span></label>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-md-6 col-lg-6">
-                
+
                 <div class="form-group">
                     <label for="" class="form-label">Duration <span class="text-danger">*</span></label>
                     <input type="text" name="duration" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

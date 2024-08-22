@@ -64,8 +64,8 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
 
         <li class="nav-menu-item router-link-<?php if (preg_match('/^(admin\/media_clips)/i', $routePath)) echo 'active'; ?>">
             <a href="<?php echo base_url('admin/media_clips'); ?>">
-                <i class="feather icon-home"></i>
-                <span class="nav-menu-item-title">Media Clips</span>
+                <i class="feather icon-folder"></i>
+                <span class="nav-menu-item-title">Radio & Tv Clips</span>
             </a>
         </li>
 
