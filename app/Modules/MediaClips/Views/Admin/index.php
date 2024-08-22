@@ -48,7 +48,8 @@
                                         <td><?php echo $c->duration ?></td>
                                         <td><?php echo $slots[$c->slot] ?></td>
                                         <td><?php echo $clients[$c->client] ?></td>
-                                        <td><a href="<?php echo $c->filepath ?>" class="btn btn-sm btn-success" target="_blank">View File</a></td>
+                                         
+                                        <td><a href="<?php echo base_url('admin/media_clips/view/'.$c->id) ?>" class="btn btn-sm btn-success" target="">View File</a></td>
                                     </tr>
                                 <?php }  ?>
                             </tbody>

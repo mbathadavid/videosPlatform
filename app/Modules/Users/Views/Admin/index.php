@@ -58,18 +58,20 @@
                                         ?>
                                     </td>
                                     <td>
-                                        <button id="btnGroupDrop1" type="button" class="btn btn-success btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Action
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                            <li><a class="dropdown-item" href="<?php echo base_url('admin/users/edit/'.$ad->id) ?>">Edit</a></li>
-                                            <?php if ($user->isBanned()) { ?>
-                                                <li><a class="dropdown-item" href="<?php echo base_url('admin/users/unban/'.$ad->id) ?>">Unban</a></li>
-                                            <?php } else { ?>
-                                                <li><a class="dropdown-item" href="<?php echo base_url('admin/users/ban/'.$ad->id) ?>">Ban</a></li>
-                                            <?php } ?>
-                                            <li><a class="dropdown-item" href="<?php echo base_url('admin/users/suspend/'.$ad->id.'/0') ?>">Suspend</a></li>
-                                        </ul>
+                                        <div class="dropdown">
+                                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Action <i class="mdi mdi-chevron-down"></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="<?php echo base_url('admin/users/edit/' . $ad->id) ?>">Edit</a>
+                                                <?php if ($user->isBanned()) { ?>
+                                                <a class="dropdown-item" href="<?php echo base_url('admin/users/unban/' . $ad->id) ?>">Unban</a>
+                                                <?php } else { ?>
+                                                    <li><a class="dropdown-item" href="<?php echo base_url('admin/users/ban/' . $ad->id) ?>">Ban</a>
+                                                <?php } ?>
+                                                <a class="dropdown-item" href="<?php echo base_url('admin/users/suspend/' . $ad->id . '/0') ?>">Suspend</a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                             <?php } ?>

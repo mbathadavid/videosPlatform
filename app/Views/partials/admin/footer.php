@@ -1,7 +1,14 @@
-<div class="footer-content">
-    <p class="mb-0">Copyright © <?php echo date('Y') ?></p>
-    <span>
-        <a href="#" class="text-gray me-3">Term &amp; Conditions</a>
-        <a href="#" class="text-gray">Privacy &amp; Policy</a>
-    </span>
-</div>
+<footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © Minia.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-end d-none d-sm-block">
+                                    Design & Develop by <a href="#!" class="text-decoration-underline">Themesbrand</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>

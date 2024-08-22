@@ -6,11 +6,11 @@
 <div class="row justify-content-center">
     <div class="col-md-9">
         <div class="card row mx-0 flex-row overflow-hidden">
-            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets/admin/images/others/bg-3.jpg');">
+            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets2/admin/images/others/bg-3.jpg');">
                 <div>
                     <div class="mb-5">
                         <div class="logo">
-                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets/admin/images/logo/logo-white.png" style="height: 50px;">
+                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets2/admin/images/logo/logo-white.png" style="height: 50px;">
                         </div>
                     </div>
                     <h3 class="text-white">Make your work easier</h3>

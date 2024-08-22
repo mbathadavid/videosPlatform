@@ -9,12 +9,12 @@
     <title>Espire - Admin Dashboard Template</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo base_url() ?>/assets/admin/images/logo/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>/assets2/admin/images/logo/favicon.ico">
 
     <!-- page css -->
 
     <!-- Core css -->
-    <link href="<?php echo base_url() ?>/assets/admin/css/app.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>/assets2/admin/css/app.min.css" rel="stylesheet">
 
 </head>
 
@@ -24,14 +24,14 @@
     </div>
     
     <!-- Core Vendors JS -->
-    <script src="<?php echo base_url() ?>/assets/admin/js/vendors.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets2/admin/js/vendors.min.js"></script>
 
     <!-- page js -->
 
     <!-- Core JS -->
-    <script src="<?php echo base_url() ?>/assets/admin/js/app.min.js"></script>
-    <script src="<?php echo base_url() ?>/assets/admin/vendors/jquery-validation/jquery.validate.min.js"></script>
-    <script src="<?php echo base_url() ?>/assets/admin/js/pages/form-validation.js"></script>
+    <script src="<?php echo base_url() ?>/assets2/admin/js/app.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets2/admin/vendors/jquery-validation/jquery.validate.min.js"></script>
+    <script src="<?php echo base_url() ?>/assets2/admin/js/pages/form-validation.js"></script>
 
 </body>
 
