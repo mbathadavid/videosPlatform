@@ -16,19 +16,19 @@ $settings = (object) $setmodel->find_set(1);
                         <div class="navbar-brand-box">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="24">
+                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="40">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="24"> <span class="logo-txt"><?php echo $settings->shortname ?></span>
+                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="40"> <span class="logo-txt"><?php echo $settings->shortname ?></span>
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="24">
+                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="40">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="24"> <span class="logo-txt"><?php echo $settings->shortname ?></span>
+                                    <img src="<?php echo base_url($settings->logopath) ?>" alt="" height="40"> <span class="logo-txt"><?php echo $settings->shortname ?></span>
                                 </span>
                             </a>
                         </div>
