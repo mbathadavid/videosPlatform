@@ -8,11 +8,24 @@
     <div class="card-body">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <video id="player1" width="100%" height="auto" controls>
-                    <source src="<?php echo base_url($clip->filepath) ?>" type="video/mp4">
-                </video>
+                <?php 
+                if (count($clips) > 0) {
+                   foreach ($clips as $key => $cli) {
+                    $cli = (object) $cli;  
+                    $filepath = $cli->path;
+                    $mimeType = mime_content_type($filepath);
 
-                <div class="table-responsive">
+                    // print_r($mimeType);
+                ?>
+
+                <video id="player1" width="100%" height="<?php echo $mimeType === "audio/mpeg" ? '100px' : 'auto' ?>" controls>
+                    <source src="<?php echo base_url($cli->path) ?>" type="video/mp4">
+                </video>
+                <?php } } else {  ?>
+                        <h5 class="text-center">There are no media files found</h5>
+                <?php }  ?>
+
+                <!-- <div class="table-responsive">
                     <table class="table">
                         <thead class="">
                             <th></th>
@@ -27,7 +40,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-6 col-md-6">
                 <?php
@@ -85,6 +98,12 @@
                             <tr>
                                 <td><b>Journalist</b></td>
                                 <td><?php echo $clip->journalist ?></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="border-bottom: 0;" class="text-center"><b>Summary</b></td>
+                            </tr>
+                            <tr class="bg-grey">
+                                <td style="border-top: 0;" colspan="2"><?php echo $clip->summary ?></td>
                             </tr>
                         </tbody>
                     </table>

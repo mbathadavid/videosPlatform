@@ -46,4 +46,18 @@ class MediaClips_m extends Model
 
         return $this->getInsertID();
     }
+
+    //Get Clip Media
+    function media_clips($id) {
+        $list = $this->db->table('clips')->where('clipid',$id)->get()->getResult();
+
+        return $list;
+    }
+
+    //Get all media clips
+    function all_clips() {
+        $list = $this->db->table('mediaclips')->orderBy('id','DESC')->get()->getResult();
+
+        return $list;
+    }
 }

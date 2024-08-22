@@ -37,13 +37,13 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/admin/build/mediaelementplayer.min.css" />
 
     <script src="<?php echo base_url() ?>/assets/admin/build/mediaelement-and-player.js"></script>
-    
+
     <!-- Dailymotion Renderer -->
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/renderers/dailymotion.js"></script>
-    
+
     <!-- Facebook Video Renderer -->
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/renderers/facebook.js"></script>
 
     <!-- Soundcloud Renderer -->
@@ -53,66 +53,69 @@
     <!-- Twitch Renderer -->
 
     <script src="<?php echo base_url() ?>/assets/admin/build/renderers/twitch.js"></script>
-    
+
     <!-- Vimeo Renderer -->
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/renderers/vimeo.js"></script>
-    
+
     <!-- Youtube Renderer -->
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/renderers/youtube.js"></script>
-    
+
     <!-- All Languages -->
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ca.js"></script>
 
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/cs.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/de.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/es.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/fa.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/fr.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/hr.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/hu.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/it.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ja.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ko.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ms.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/nl.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/pl.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/pt.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ro.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/ru.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/sk.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/sv.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/tr.js"></script>
 
     <script src="<?php echo base_url() ?>/assets/admin/to/build/lang/uk.js"></script>
 
     <script src="<?php echo base_url() ?>/assets/admin/build/lang/zh-cn.js"></script>
-    
+
     <script src="<?php echo base_url() ?>/assets/admin/to/build/lang/zh.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
 
-     <!-- Icons Css -->
-     <link href="<?php echo base_url() ?>/assets/admin/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="<?php echo base_url() ?>/assets/admin/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Toaster Popup message CSS -->
+    <link href="<?php echo base_url() ?>assets/admin/vendors/toast-master/css/jquery.toast.css" rel="stylesheet">
 </head>
 
 <body>
@@ -202,6 +205,8 @@
     <!-- fontawesome icons init -->
     <script src="<?php echo base_url() ?>/assets/admin/js/pages/fontawesome.init.js"></script>
 
+    <!-- Popup message jquery -->
+    <script src="<?php echo base_url() ?>assets/admin/vendors/toast-master/js/jquery.toast.js"></script>
 
     <!-- dropzone js -->
     <!-- <script src="<?php echo base_url() ?>/assets/admin/libs/dropzone/min/dropzone.min.js"></script> -->
@@ -209,15 +214,60 @@
 
     <script>
         $('video, audio').mediaelementplayer({
-            enableAutosize:true,
-            timeFormat:'mm:ss',
+            enableAutosize: true,
+            timeFormat: 'mm:ss',
             // showTimecodeFrameCount:true,
-            autosizeProgress:true,
-            alwaysShowControls:true,
-            clickToPlayPause:true,
+            autosizeProgress: true,
+            alwaysShowControls: true,
+            clickToPlayPause: true,
             features: [playpause, current, progress, duration, tracks, volume, fullscreen],
-            
+
         });
+    </script>
+
+    <?php if (session()->getFlashdata('success')) : ?>
+        <script>
+            $.toast({
+                heading: 'Success',
+                text: ' <?php echo session()->getFlashdata('success') ?>',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'success',
+                hideAfter: 3500,
+                stack: 6
+            })
+        </script>
+
+
+    <?php endif; ?>
+
+    <?php if (session()->getFlashdata('error')) : ?>
+        <script>
+            $.toast({
+                heading: 'Error',
+                text: ' <?php echo session()->getFlashdata('error') ?>',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'error',
+                hideAfter: 3500,
+                stack: 6
+            })
+        </script>
+
+    <?php endif; ?>
+
+    <script>
+        function toastt(heading, type, message) {
+            $.toast({
+                heading: heading,
+                text: message,
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: type,
+                hideAfter: 3500,
+                stack: 6
+            })
+        }
     </script>
 </body>
 

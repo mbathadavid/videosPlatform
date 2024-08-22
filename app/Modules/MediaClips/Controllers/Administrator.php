@@ -20,7 +20,7 @@ class Administrator extends AdministratorController
         helper(['form']);
         $model = new MediaClips_m();
 
-        $data['clips'] = $model->findAll();
+        $data['clips'] = $model->all_clips();
         $data['industries'] = $this->gen->populate('industries', 'id', 'name');
         $data['mediahouses'] = $this->gen->populate('mediahouses', 'id', 'name');
         $data['slots'] = $this->gen->populate('slots', 'id', 'name');
@@ -58,10 +58,10 @@ class Administrator extends AdministratorController
                 'created_by' => auth()->user()->id
             );
 
-            $file = $this->request->getFile('filepond');
+            $files = $this->request->getFiles();
 
             // echo "<pre>";
-            //     print_r($file);
+            //     print_r($files);
             // echo "</pre>";
             // die;
 
@@ -71,39 +71,64 @@ class Administrator extends AdministratorController
                     'rules' => [
                         // 'uploaded[filepond]',
                         // 'is_image[filepond]',
-                        'mime_in[filepond,video/mp4,audio/mp3]',
+                        'mime_in[filepond,video/mp4,audio/mpeg]',
                         // 'max_size[userfile,100]',
                         // 'max_dims[userfile,1024,768]',
                     ],
                 ],
             ];
 
-            if ($this->validate($fileRules)) {
-                $name = $file->getRandomName();
+            // if ($this->validate($fileRules)) {
+            //     $name = $file->getRandomName();
 
-                // $directoryPath = ROOTPATH . 'public/uploads/' . date('Y') . '/' . date('M');
-                $directoryPath = 'assets/uploads/' . date('Y') . '/' . date('M');
+            //     // $directoryPath = ROOTPATH . 'public/uploads/' . date('Y') . '/' . date('M');
+            //     $directoryPath = 'assets/uploads/' . date('Y') . '/' . date('M');
 
-                // Check if the directory exists
-                if (!is_dir($directoryPath)) {
-                    // Create the directory if it does not exist
-                    mkdir($directoryPath, 0755, true);
-                }
+            //     // Check if the directory exists
+            //     if (!is_dir($directoryPath)) {
+            //         // Create the directory if it does not exist
+            //         mkdir($directoryPath, 0755, true);
+            //     }
 
                
                 
-                $filepath = null;
-                if ($file->move($directoryPath, $file->getRandomName())) {
-
-                    $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
-                    $form_data['filepath'] = $filepath;
-                }
-            }
+            //     $filepath = null;
+            //     if ($file->move($directoryPath, $file->getRandomName())) {
+            //         $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
+            //         $form_data['filepath'] = $filepath;
+            //     }
+            // }
 
             //Create a new entry for Media Clips
             $ok = $this->gen->insert_data('mediaclips', $form_data);
 
             if ($ok) {
+                //Upload Files
+                $directoryPath = 'assets/uploads/' . date('Y') . '/' . date('M');
+
+                if (!is_dir($directoryPath)) {
+                    // Create the directory if it does not exist
+                    mkdir($directoryPath, 0755, true);
+                }
+
+                if ($files) {
+                    foreach ($files['filepond'] as $file) {
+                        $filepath = null;
+                        if ($file->move($directoryPath, $file->getRandomName())) {
+                            $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
+                            
+                            $filedata = array(
+                                'clipid' => $ok,
+                                'path' => $filepath,
+                                'created_on' => time(),
+                                'created_by' => auth()->user()->id
+                            );
+                        }
+
+                        $kk = $this->gen->insert_data('clips', $filedata);
+                    }
+                }
+
                 return redirect()->to('admin/media_clips')->with('success', 'Media Clip Successfully Added!');
             } else {
                 return redirect()->to('admin/media_clips')->with('error', 'Something went wrong!');
@@ -130,6 +155,7 @@ class Administrator extends AdministratorController
         $data['mediahouses'] = $this->gen->populate('mediahouses', 'id', 'name');
         $data['slots'] = $this->gen->populate('slots', 'id', 'name');
         $data['clients'] = $this->gen->populate('clients', 'id', 'name');
+        $data['clips'] = $model->media_clips($id);
 
         return view('App\Modules\MediaClips\Views\Admin\view', $data);
     }

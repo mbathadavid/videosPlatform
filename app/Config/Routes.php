@@ -81,6 +81,11 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('add', 'Administrator::add');
         $routes->add('view/(:any)', 'Administrator::view/$1');
     });
+
+     //Media Clips
+     $routes->group('settings', ['namespace' => 'App\Modules\Settings\Controllers', 'filter' => 'auth'], function ($routes) {
+        $routes->add('/', 'Administrator::index');
+    });
 });
 
 

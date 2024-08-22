@@ -71,7 +71,7 @@
                     <label for="" class="form-label">Journalist <span class="text-danger"></span></label>
                     <input type="text" name="journalist" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                
+
 
                 <div class="form-group">
                     <!-- <label for="">Attach Files</label>
@@ -80,7 +80,7 @@
                     <div class="dropzone" id="myDropzone">
                         <div class="dz-message">Drag & drop your image or click to select</div>
                     </div>
-                    <input type="file" name="filepond" id="fileInput" accept=".mp4,.mp3" style="display: none;">
+                    <input type="file" name="filepond[]" id="fileInput" accept=".mp4,.mp3" style="display: none;" multiple>
 
                 </div>
 
@@ -95,6 +95,48 @@
 
 
 <script>
+    // Dropzone.autoDiscover = false;
+
+    // // Initialize Dropzone
+    // var myDropzone = new Dropzone("#myDropzone", {
+    //     url: "/", // Dummy URL since we're not actually uploading
+    //     autoProcessQueue: false,
+    //     uploadMultiple: true,
+    //     maxFilesize: 20000,
+    //     acceptedFiles: "video/mp4,audio/mpeg",
+    //     addRemoveLinks: true,
+
+    //     init: function() {
+    //         var dropzoneInstance = this;
+
+    //         // Trigger file input click on Dropzone click
+    //         this.element.addEventListener("pointerdown", function(event) {
+    //             // Disable pointerdown temporarily to prevent multiple triggers
+    //             event.currentTarget.style.pointerEvents = "none";
+    //             document.getElementById("fileInput").click();
+    //         });
+
+    //         // Handle file input change
+    //         document.getElementById("fileInput").addEventListener("change", function(event) {
+    //             var files = event.target.files;
+
+    //             // Add each selected file to Dropzone
+    //             for (var i = 0; i < files.length; i++) {
+    //                 var file = files[i];
+    //                 dropzoneInstance.addFile(file); // Adds file to Dropzone for previewing
+    //             }
+
+    //             // Re-enable pointerdown after file selection
+    //             dropzoneInstance.element.style.pointerEvents = "auto";
+    //         });
+
+    //         // Remove file from the input when removed from Dropzone
+    //         this.on("removedfile", function() {
+    //             document.getElementById("fileInput").value = "";
+    //         });
+    //     }
+    // });
+
     Dropzone.autoDiscover = false;
 
     // Initialize Dropzone
@@ -103,7 +145,7 @@
         autoProcessQueue: false,
         uploadMultiple: true,
         maxFilesize: 20000,
-        acceptedFiles: "video/mp4",
+        acceptedFiles: "video/mp4,audio/mpeg",
         addRemoveLinks: true,
 
         init: function() {
@@ -111,9 +153,11 @@
 
             // Trigger file input click on Dropzone click
             this.element.addEventListener("pointerdown", function(event) {
-                // Disable pointerdown temporarily to prevent multiple triggers
-                event.currentTarget.style.pointerEvents = "none";
-                document.getElementById("fileInput").click();
+                if (!this.classList.contains('dropzone-disabled')) {
+                    // Add a class to disable further clicks temporarily
+                    this.classList.add('dropzone-disabled');
+                    document.getElementById("fileInput").click();
+                }
             });
 
             // Handle file input change
@@ -126,8 +170,8 @@
                     dropzoneInstance.addFile(file); // Adds file to Dropzone for previewing
                 }
 
-                // Re-enable pointerdown after file selection
-                dropzoneInstance.element.style.pointerEvents = "auto";
+                // Remove the class to re-enable Dropzone clicking
+                dropzoneInstance.element.classList.remove('dropzone-disabled');
             });
 
             // Remove file from the input when removed from Dropzone
