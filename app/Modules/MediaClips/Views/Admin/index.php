@@ -23,13 +23,8 @@
                                     <th>Title</th>
                                     <th>Media House</th>
                                     <th>Duration</th>
-                                    <th>Rate Card</th>
                                     <th>Slot</th>
                                     <th>Client</th>
-                                    <th>Sector</th>
-                                    <th>Tonality</th>
-                                    <th>Journalist</th>
-                                    <th>Summary</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -51,13 +46,9 @@
                                         <td><?php echo $c->storytitle ?></td>
                                         <td><?php echo $mediahouses[$c->mediahouse] ?></td>
                                         <td><?php echo $c->duration ?></td>
-                                        <td><?php echo $c->ratecard ?></td>
                                         <td><?php echo $slots[$c->slot] ?></td>
                                         <td><?php echo $clients[$c->client] ?></td>
-                                        <td><?php echo $c->sector ?></td>
-                                        <td><?php echo $tonalities[$c->tonality] ?></td>
-                                        <td><?php echo $c->journalist ?></td>
-                                        <td><?php echo $c->summary ?></td>
+                                         
                                         <td><a href="<?php echo base_url('admin/media_clips/view/'.$c->id) ?>" class="btn btn-sm btn-success" target="">View File</a></td>
                                     </tr>
                                 <?php }  ?>

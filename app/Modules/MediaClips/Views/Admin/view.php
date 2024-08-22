@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6">
                 <video id="player1" width="100%" height="auto" controls>
-                    <source src="<?php echo $clip->filepath ?>" type="video/mp4">
+                    <source src="<?php echo base_url($clip->filepath) ?>" type="video/mp4">
                 </video>
 
                 <div class="table-responsive">

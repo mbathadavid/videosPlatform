@@ -81,7 +81,8 @@ class Administrator extends AdministratorController
             if ($this->validate($fileRules)) {
                 $name = $file->getRandomName();
 
-                $directoryPath = ROOTPATH . 'public/uploads/' . date('Y') . '/' . date('M');
+                // $directoryPath = ROOTPATH . 'public/uploads/' . date('Y') . '/' . date('M');
+                $directoryPath = 'assets/uploads/' . date('Y') . '/' . date('M');
 
                 // Check if the directory exists
                 if (!is_dir($directoryPath)) {
@@ -89,10 +90,13 @@ class Administrator extends AdministratorController
                     mkdir($directoryPath, 0755, true);
                 }
 
-                // sleep(5);
+               
+                
+                $filepath = null;
+                if ($file->move($directoryPath, $file->getRandomName())) {
 
-                if ($file->move('./public/uploads', $name)) {
-                    $form_data['filepath'] = base_url('public/uploads/' . $name);
+                    $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
+                    $form_data['filepath'] = $filepath;
                 }
             }
 
