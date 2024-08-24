@@ -220,7 +220,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `phone` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 -- Dumping data for table rmedia.users: ~1 rows (approximately)
 INSERT INTO `users` (`id`, `username`, `status`, `status_message`, `active`, `last_active`, `created_at`, `updated_at`, `deleted_at`, `first_name`, `last_name`, `phone`) VALUES
@@ -243,7 +243,7 @@ CREATE TABLE `mediahouses` (
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
-AUTO_INCREMENT=56
+ 
 ;
 
 
@@ -272,7 +272,7 @@ CREATE TABLE IF NOT EXISTS `group_permissions` (
   `modified_on` int(11) DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4;
 
 
 CREATE TABLE `slots` (
@@ -320,7 +320,7 @@ CREATE TABLE IF NOT EXISTS `clients` (
   `modified_on` int(11) DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB   DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `mediaclips` (
   `id` int(9) NOT NULL AUTO_INCREMENT,
@@ -341,7 +341,7 @@ CREATE TABLE IF NOT EXISTS `mediaclips` (
   `updated_at` int(11) DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `system` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -355,7 +355,7 @@ CREATE TABLE IF NOT EXISTS `system` (
   `modified_on` int(11) DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB   DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `clips` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -366,4 +366,4 @@ CREATE TABLE IF NOT EXISTS `clips` (
   `modified_on` int(11) DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB   DEFAULT CHARSET=utf8mb4;

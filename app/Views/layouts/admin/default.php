@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 use App\Modules\Settings\Models\Settings_m;
 
 $setmodel = new Settings_m();
@@ -21,7 +22,7 @@ $settings = (object) $setmodel->find_set(1);
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <!-- <link rel="shortcut icon" href="<?php echo base_url() ?>/assets/admin/images/favicon.ico"> -->
-    <link rel="shortcut icon" href="<?php echo base_url($settings->logopath) ?>">
+    <link rel="shortcut icon" href="<?php echo isset($settings->logopath) ? base_url($settings->logopath)  : '' ?>">
 
     <!-- plugin css -->
     <link href="<?php echo base_url() ?>/assets/admin/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
@@ -44,6 +45,10 @@ $settings = (object) $setmodel->find_set(1);
 
     <!-- Media PLAYER -->
     <link rel="stylesheet" href="<?php echo base_url() ?>/assets/admin/build/mediaelementplayer.min.css" />
+
+
+    <!-- choises -->
+    <link href="<?php echo base_url() ?>assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
 
     <script src="<?php echo base_url() ?>/assets/admin/build/mediaelement-and-player.js"></script>
 
@@ -243,6 +248,11 @@ $settings = (object) $setmodel->find_set(1);
 
     <!-- Datatable init js -->
     <script src="<?php echo base_url() ?>assets/admin/js/pages/datatables.init.js"></script>
+
+
+    <!-- choices -->
+    <!-- choices js -->
+    <script src="<?php echo base_url()?>assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
 
     <script>
         $('.data-table, .datatable').DataTable({

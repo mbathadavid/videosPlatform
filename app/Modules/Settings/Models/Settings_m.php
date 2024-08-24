@@ -13,7 +13,7 @@ class Settings_m extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name', 'description', 'created_by', 'modified_by', 'created_at', 'updated_at'];
+    protected $allowedFields    = ['name', 'short_name', 'email','phone','logopath', 'created_by', 'modified_by', 'created_on', 'updated_at'];
 
     // Dates
     protected $useTimestamps = false;

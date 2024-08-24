@@ -1,64 +1,92 @@
 <?php echo $this->extend('layouts/admin/default'); ?>
 <?php echo $this->section('content'); ?>
-<div class="card">
-    <div class="card-header">
-        <h5 class="float-start">Media Clips</h5>
-        <a href="<?php echo base_url('admin/media_clips/add') ?>" class="btn btn-success text-white float-end">Add Media</a>
-    </div>
-    <div class="card-body">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <?php
-                // echo "<pre>";
-                //     print_r($clips);
-                // echo "</pre>";
-                ?>
-                <div class="mt-4">
-                    <div class="table-responsive">
-                        <table id="data-table" class="table data-table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Date</th>
-                                    <th>Title</th>
-                                    <th>Media House</th>
-                                    <th>Duration</th>
-                                    <th>Slot</th>
-                                    <th>Client</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php 
-                                    $i = 0;
-                                    $tonalities = array(
-                                        'Positive' => 'Positive',
-                                        'Negative' => 'Negative',
-                                        'Neutral' => 'Neutral'
-                                    );
-                                    foreach ($clips as $cli) {
-                                        $c = (object) $cli;
-                                        $i++;
-                                ?>
-                                    <tr>
-                                        <td><?php echo $i ?></td>
-                                        <td><?php echo date('d M Y H:i',$c->datetime) ?></td>
-                                        <td><?php echo $c->storytitle ?></td>
-                                        <td><?php echo $mediahouses[$c->mediahouse] ?></td>
-                                        <td><?php echo $c->duration ?></td>
-                                        <td><?php echo $slots[$c->slot] ?></td>
-                                        <td><?php echo $clients[$c->client] ?></td>
-                                         
-                                        <td><a href="<?php echo base_url('admin/media_clips/view/'.$c->id) ?>" class="btn btn-sm btn-success" target="">View File</a></td>
-                                    </tr>
-                                <?php }  ?>
-                            </tbody>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Media Clips</h4>
 
-                        </table>
-                    </div>
-                </div>
+            </div>
+            <div class="card-body">
+
+              
+
+                <table id="reports" class="table table-bordered dt-responsive  nowrap w-100">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Client</th>
+                            <th>Title</th>
+                            <th>Media House</th>
+                            <th>Slot</th>
+                            <th>Duration</th>
+                            <th>..</th>
+                        </tr>
+                    </thead>
+                </table>
+
             </div>
         </div>
-    </div>
-</div>
+    </div> <!-- end col -->
+</div> <!-- end row -->
+
+
+<script>
+    $(document).ready(function() {
+        $('#reports').DataTable({
+            "processing": true,
+            "serverSide": true,
+            "ajax": {
+                "url": "<?= base_url('AjaxDataSources/media_clips/FetchReport') ?>",
+                "type": "POST"
+            },
+            "columns": [{
+                    "data": null
+                }, // This will be for the index/serial number
+                {
+                    "data": "date"
+                },
+                {
+                    "data": "client"
+                },
+                {
+                    "data": "title"
+                },
+                {
+                    "data": "media"
+                },
+                {
+                    "data": "slot"
+                },
+                {
+                    "data": "duration"
+                },
+                {
+                    "data": null,
+                    "orderable": false,
+                    "searchable": false,
+                    "render": function(data, type, row) {
+                        return `
+                            <a href="<?= base_url('admin/media_clips/view/') ?>${row.id}" class="btn btn-primary btn-sm">View
+                            </a>
+                           
+                        `;
+                    },
+                    "className": "text-end"
+                }
+            ],
+            "order": [
+                [1, 'asc']
+            ], // Sort by Admission Number
+            "columnDefs": [{
+                "targets": 0,
+                "render": function(data, type, row, meta) {
+                    return meta.row + meta.settings._iDisplayStart + 1; // Add row numbering
+                }
+            }]
+        });
+    });
+</script>
+
 <?php echo $this->endSection(); ?>

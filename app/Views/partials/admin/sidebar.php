@@ -17,28 +17,40 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
 
                 <li>
                     <a href="<?php echo base_url('admin'); ?>">
-                        <i class="fas fa-home"></i>
+                        <i data-feather="home"></i>
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="<?php echo base_url('admin/clients') ?>">
-                        <i class="fas fa-users"></i>
+                        <i data-feather="users"></i>
                         <span data-key="t-dashboard">Clients</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="<?php echo base_url('admin/media_clips') ?>">
-                        <i class="fas fa-folder"></i>
+                        <i data-feather="cpu"></i>
                         <span data-key="t-dashboard">Media Clips</span>
                     </a>
                 </li>
 
+
+
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i class="fas fa-box"></i>
+                        <i data-feather="file"></i>
+                        <span data-key="reports">Reports</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="<?php echo base_url('admin/media_clips/get-report') ?>" data-key="t-alerts">Monthly Report</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="briefcase"></i>
                         <span data-key="t-components">Components</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -49,17 +61,12 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                     </ul>
                 </li>
 
-                <li class="menu-title mt-2" data-key="t-components">Settings</li>
-                <li>
-                    <a href="<?php echo base_url('admin/settings') ?>">
-                        <i class="fas fa-cog"></i>
-                        <span data-key="t-horizontal">Settings</span>
-                    </a>
-                </li>
+                <!-- <li class="menu-title mt-2" data-key="t-components">Settings</li> -->
+
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i class="fas fa-user-cog"></i>
+                        <i data-feather="users"></i>
                         <span data-key="t-components">User Management</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -67,6 +74,16 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                         <li><a href="<?php echo base_url('admin/groups/add') ?>" data-key="t-alerts">User Groups</a></li>
                         <li><a href="<?php echo base_url('admin/permissions') ?>" data-key="t-buttons">Permissions</a></li>
                     </ul>
+                </li>
+
+
+
+
+                <li>
+                    <a href="<?php echo base_url('admin/settings') ?>">
+                        <i data-feather="settings"></i>
+                        <span data-key="t-horizontal">Settings</span>
+                    </a>
                 </li>
             </ul>
 
@@ -83,5 +100,5 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
         </div>
         <!-- Sidebar -->
     </div>
-    
+
 </div>
