@@ -3,6 +3,7 @@
 namespace App\Modules\MediaClips\Controllers;
 
 use App\Controllers\AdministratorController;
+use App\Models\Media;
 use App\Modules\MediaClips\Models\MediaClips_m;
 use App\Modules\MediaHouses\Models\MediaHouses_m;
 use CodeIgniter\Files\File;
@@ -159,4 +160,254 @@ class Administrator extends AdministratorController
 
         return view('App\Modules\MediaClips\Views\Admin\view', $data);
     }
+
+
+    function getReport()
+    {
+        $data = [];
+        $data['industries'] = $this->gen->populate('industries', 'id', 'name');
+        $data['clients'] = $this->gen->populate('clients', 'id', 'name');
+        $data['mediahouses'] = $this->gen->populate('mediahouses', 'id', 'name');
+        return view('App\Modules\MediaClips\Views\Admin\report', $data);
+    }
+
+    function fetchMediaReport()
+    {
+        $model = new MediaClips_m();
+
+        // Read the DataTables request parameters
+        $request = service('request');
+        $draw = $request->getPost('draw');
+        $start = $request->getPost('start');
+        $length = $request->getPost('length');
+        $search = $request->getPost('search')['value'];
+
+        // Custom filters
+        $category = $request->getPost('category');
+        $from = strtotime($request->getPost('from'));
+        $to = strtotime($request->getPost('to'));
+        $mediaHouse = $request->getPost('media_house');
+        $client = $request->getPost('client');
+
+        // Apply filters
+        // if ($category) {
+        //     $model->where('category', $category);
+        // }
+
+        if ($from && $to) {
+            if ($from == $to) {
+                $model->where('datetime', $from);
+            } else {
+                $model->where('datetime >=', $from);
+                $model->where('datetime <=', $to);
+            }
+        } elseif ($from) {
+            $model->where('datetime >=', $from);
+        } elseif ($to) {
+            $model->where('datetime <=', $to);
+        }
+
+        if ($mediaHouse) {
+            $model->where('mediahouse', $mediaHouse);
+        }
+
+        if ($client) {
+            $model->where('client', $client);
+        }
+
+        // Total number of records without filtering
+        $totalRecords = $model->countAllResults(false);
+
+        // Apply the search filter after the other filters
+        if ($search) {
+            $model->groupStart()
+                ->like('storytitle', $search)
+                ->orLike('journalist', $search)
+                ->orLike('summary', $search)
+                ->groupEnd();
+        }
+
+        // Total number of records with filtering
+        $totalRecordwithFilter = $model->countAllResults(false);
+
+        // Fetch records with limit and offset
+        $clips = $model->orderBy('id', 'DESC')
+        ->findAll($length, $start);
+
+        // Prepare data for DataTables
+        $data = [];
+        foreach ($clips as $p) {
+            $p = (object) $p;
+            $mediahouses = $this->gen->populate('mediahouses', 'id', 'name');
+            $clients = $this->gen->populate('clients', 'id', 'name');
+            $slots = $this->gen->populate('slots', 'id', 'name');
+
+            $media = isset($mediahouses[$p->mediahouse]) ? $mediahouses[$p->mediahouse] : '-';
+            $client = isset($clients[$p->client]) ? $clients[$p->client] : '-';
+            $slot = isset($slots[$p->slot]) ? $slots[$p->slot] : '-';
+
+            $data[] = [
+                'id' => $p->id,
+                'title' => $p->storytitle,
+                'media' => $media,
+                'client' => $client,
+                'slot' => $slot,
+                'duration' => $p->duration,
+                'date' => date('dS M Y', $p->datetime),
+            ];
+        }
+
+        // Prepare the response
+        $response = [
+            "draw" => intval($draw),
+            "recordsTotal" => $totalRecords,
+            "recordsFiltered" => $totalRecordwithFilter,
+            "data" => $data
+        ];
+
+        return $this->response->setJSON($response);
+    }
+
+
+
+    public function exportMediaReportCSV()
+    {
+        $model = new MediaClips_m();
+
+        // Read the request parameters for filtering
+        $request = service('request');
+        $category = $request->getPost('category');
+        $from = strtotime($request->getPost('from'));
+        $to = strtotime($request->getPost('to'));
+        $mediaHouse = $request->getPost('media_house');
+        $client = $request->getPost('client');
+
+        // Apply filters
+        if ($category) {
+            // $model->where('category', $category);
+        }
+
+        if ($from && $to) {
+            if ($from == $to) {
+                $model->where('datetime', $from);
+            } else {
+                $model->where('datetime >=', $from);
+                $model->where('datetime <=', $to);
+            }
+        } elseif ($from) {
+            $model->where('datetime >=', $from);
+        } elseif ($to) {
+            $model->where('datetime <=', $to);
+        }
+
+
+        if ($mediaHouse) {
+            $model->where('mediahouse', $mediaHouse);
+        }
+
+        if ($client) {
+            $model->where('client', $client);
+        }
+
+        // Apply search filter
+        
+        // Fetch all matching records
+        $clips = $model->orderBy('id', 'DESC')->findAll();
+
+
+        $mediahouses = $this->gen->populate('mediahouses', 'id', 'name');
+        $clients = $this->gen->populate('clients', 'id', 'name');
+        $slots = $this->gen->populate('slots', 'id', 'name');
+
+
+        $title = "Media Monitoring Report";
+        $xt = "";
+
+        if($client)
+        {
+            $Client = isset($clients[$client]) ? $clients[$client] : '-'; 
+            $xt = strtoupper($Client).' Media Monitoring Report';
+        }
+
+       
+        if($from && $to)
+        {
+            $xt .=' - FROM '. $request->getPost('from').'  TO '. $request->getPost('from');
+        }
+        elseif($from)
+        {
+                $xt .= ' - ' . $request->getPost('from');
+
+        }
+
+
+
+       
+
+        // Prepare CSV data
+        // $csvData = "ID,Title,Media,Client,Slot,Duration,Date\n";
+        $csvData = "DATE,STATION,HEADLINE,ARTICLE SUMMARY,TIME, SLOT,SOV (Sec),WEIGHTING,JOURNALIST,AVE,PR  VALUE\n";
+
+        foreach ($clips as $p) {
+            $p = (object) $p;
+
+            $media = isset($mediahouses[$p->mediahouse]) ? $mediahouses[$p->mediahouse] : '-';
+            $client = isset($clients[$p->client]) ? $clients[$p->client] : '-';
+            $slot = isset($slots[$p->slot]) ? $slots[$p->slot] : '-';
+
+            $clips = $model->media_clips($p->id);
+
+            // Initialize the publication field with an empty array
+            $publication = [];
+
+            // Loop through each clip to attach paths
+            foreach ($clips as $clip) {
+                $publication[] = base_url($clip->path);  // Adjust 'path' to the correct key if needed
+            }
+
+            // Convert the publication array to a string with new lines and space within the cell
+            $publication = implode(" \n", $publication);
+
+            // Wrap the publication in double quotes to ensure correct CSV format
+            $publication = "\"{$publication}\"";
+
+            $ave = ($p->ratecard * $p->duration);
+            $pr =  ($ave * 3);
+
+            // Build the row array
+            $row = [
+                    date('dS M Y', $p->datetime), // Date
+                    $media,                        // Media House
+                    $p->storytitle,                // Headline
+                    $publication,                  // Attached Publication Paths
+                    date('His', $p->datetime) . 'hrs', // Time
+                    $slot,                         // Slot
+                    $p->duration,                  // SOV (Sec)
+                    $p->tonality,                  // Weighting
+                    $p->journalist,                // Journalist
+                    $ave,                          // AVE
+                    $pr                            // PR Value
+                ];
+
+            // Convert the row array into a CSV string and append it to csvData
+            $csvData .= implode(',', $row) . "\n";
+        }
+
+        $filename = isset($xt) && !empty($xt) ? $xt : $title;
+
+        $filename = preg_replace('/[^A-Za-z0-9_\-]/', '_', $filename);
+
+
+        // Set headers to download the file as a CSV
+        header('Content-Type: text/csv');
+        header('Content-Disposition: attachment; filename="' . $filename . '.csv"');
+        header('Pragma: no-cache');
+        header('Expires: 0');
+
+        // Output the CSV data
+        echo $csvData;
+        exit;
+    }
+
+
 }

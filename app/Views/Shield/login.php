@@ -10,11 +10,11 @@
                 <div>
                     <div class="mb-5">
                         <div class="logo">
-                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets2/admin/images/logo/logo-white.png" style="height: 50px;">
+                            <img alt="logo" class="img-fluid" src="<?php echo base_url() ?>/assets/logo/logo.png" style="height: ;">
                         </div>
                     </div>
-                    <h3 class="text-white">Make your work easier</h3>
-                    <p class="text-white mt-4 mb-5 o-75">Climb leg rub face on everything give attitude under the bed.</p>
+                    <h3 class="text-white">R MEDIAHUB</h3>
+                    <!-- <p class="text-white mt-4 mb-5 o-75">Climb leg rub face on everything give attitude under the bed.</p> -->
                 </div>
             </div>
             <div class="col-md-8 px-0">
@@ -48,7 +48,7 @@
                             <div class="mb-3">
                                 <label class="form-label d-flex justify-content-between">
                                     <span>Password</span>
-                                    <a href="#" class="text-primary font">Forget Password?</a>
+                                    <!-- <a href="#" class="text-primary font">Forget Password?</a> -->
                                 </label>
                                 <div class="form-group input-affix flex-column">
                                     <label class="d-none">Password</label>
@@ -58,26 +58,8 @@
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Log In</button>
                         </form>
-                        <div class="divider">
-                            <span class="divider-text text-muted">or login with</span>
-                        </div>
-                        <div class="row">
-                            <div class="col px-1">
-                                <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-1.png" alt="" style="max-width: 20px;">
-                                </button>
-                            </div>
-                            <div class="col px-1">
-                                <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-2.png" alt="" style="max-width: 20px;">
-                                </button>
-                            </div>
-                            <div class="col px-1">
-                                <button class="btn btn-outline-secondary w-100">
-                                    <img src="<?php echo base_url() ?>/assets2/admin/images/thumbs/thumb-3.png" alt="" style="max-width: 20px;">
-                                </button>
-                            </div>
-                        </div>
+                        
+                       
                     </div>
                 </div>
             </div>

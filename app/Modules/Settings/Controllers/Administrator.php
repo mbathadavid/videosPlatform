@@ -17,13 +17,27 @@ class Administrator extends AdministratorController
         $data = [];
         helper(['form']);
         $model = new Settings_m();
+        $rw = (object) $model->find(1);
 
         if ($this->request->getPost()) {
             $post = (object) $this->request->getPost();
 
-            $check = $model->find_set(1);
+            // $check = $model->find_set(1);
+            $check = $model->where('id',1)->first();
 
-            $file = $this->request->getFile('filepond');
+            if($this->request->getFile('filepond'))
+            {
+                $file = $this->request->getFile('filepond');
+                $size =  $file->getSize();
+            }
+            else
+            {
+                $file = false;
+                $size = 0;
+            }
+
+         
+           
 
             $form_data = array(
                 'name' => $post->name,
@@ -32,11 +46,7 @@ class Administrator extends AdministratorController
                 'phone' => $post->phone
             );
 
-            // echo "<pre>";
-            //     print_r($post);
-            //     print_r($check);
-            // echo "</pre>";
-            // die;
+        
 
             $directoryPath = 'assets/logo';
             // Check if the directory exists
@@ -45,15 +55,28 @@ class Administrator extends AdministratorController
                 mkdir($directoryPath, 0755, true);
             }
 
-            $filepath = null;
-            if ($file->move($directoryPath, $file->getRandomName())) {
-                $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
-                $form_data['logopath'] = $filepath;
+            if($size > 0)
+            {
+                $filepath = null;
+                if ($file->move($directoryPath, $file->getRandomName())) {
+                    $filepath = $directoryPath . '/' . $file->getName(); // Get the final path
+                    // $form_data['logopath'] = $filepath;
+                    $rw->logopath =  $filepath;
+                    $model->save($rw);
+                }
             }
+        
 
             //Check if to Update or Create new entry
-            if ($check) {
-                $up = $this->gen->update_data('system',$form_data,['id' => 1]);
+            if ($check) 
+            {
+
+                $rw->name =  $post->name;
+                $rw->shortname =  $post->shortname;
+                $rw->email =  $post->email;
+                $rw->phone =  $post->phone;
+
+               $up =  $model->save($rw);
 
                 if ($up) {
                     return redirect()->to('admin/settings')->with('success', 'Settings Updated Successfully!');
@@ -72,7 +95,7 @@ class Administrator extends AdministratorController
             }
         }
 
-        $data['settings'] = $model->find_set(1);
+        $data['settings'] = (object) $model->where('id',1)->first();
 
         return view('App\Modules\Settings\Views\Admin\index', $data);
     }

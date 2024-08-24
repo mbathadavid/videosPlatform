@@ -704,7 +704,7 @@ abstract class BaseModel
      *
      * @throws ReflectionException
      */
-    public function save($row): bool
+    public function _save($row): bool
     {
         if ((array) $row === []) {
             return true;
@@ -717,6 +717,28 @@ abstract class BaseModel
 
             if ($response !== false) {
                 $response = true;
+            }
+        }
+
+        return $response;
+    }
+
+    public function save($row)
+    {
+        if ((array) $row === []) {
+            return true;
+        }
+
+        if ($this->shouldUpdate($row)) {
+            $response = $this->update($this->getIdValue($row), $row);
+        } else {
+            $insertId = $this->insert($row, true);
+
+            if ($insertId !== false) {
+                // Fetch the inserted row based on the insert ID
+                $response = $insertId;
+            } else {
+                $response = false;
             }
         }
 

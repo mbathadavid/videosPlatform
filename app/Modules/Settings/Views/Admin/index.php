@@ -2,17 +2,13 @@
 <?php echo $this->section('content'); ?>
 <div class="card">
     <div class="card-header">
-        <h5 class="float-start">Add User</h5>
-        <a href="<?php echo base_url('admin/users') ?>" class="btn btn-success text-white float-end">All Users</a>
+        <h5 class="float-start">Settings</h5>
     </div>
     <div class="card-body">
-        <div class="row justify-content-center">
-            <div class="col-lg-5 col-md-5">
+        <div class="row justify-content-">
+            <div class="col-lg-6 col-md-6">
                 <?php
-                // echo "<pre>";
-                //     print_r($settings);
-                // echo "</pre>";
-                // // die;
+                 
 
                 $attributes = [];
 

@@ -46,6 +46,12 @@ class AuthFilter implements FilterInterface
             return;
         }
 
+        // ALLOW ALL AJAX CALLS
+        if($groupSegment == 'AjaxDataSources')
+        {
+            return ;
+        }
+
 
         // Check group segment
         if ($usergroup == 'superadmin') 
