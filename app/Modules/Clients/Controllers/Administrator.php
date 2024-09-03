@@ -45,7 +45,8 @@ class Administrator extends AdministratorController
                 $users = auth()->getProvider();
                 $name = explode(' ',$post->name);
                 $fname = $name[0];
-                $lname = isset($name[2]) ? $name[2] : isset($name[1]) ? $name[1] : ''; 
+                $lname = isset($name[2]) ? $name[2] : (isset($name[1]) ? $name[1] : '');
+
                 $username = $fname.$lname.'_client_'.$ok;
                 
                 $user = new User([
@@ -116,7 +117,8 @@ class Administrator extends AdministratorController
 
                 $name = explode(' ',$post->name);
                 $fname = $name[0];
-                $lname = isset($name[2]) ? $name[2] : isset($name[1]) ? $name[1] : ''; 
+                $lname = isset($name[2]) ? $name[2] : (isset($name[1]) ? $name[1] : '');
+
                 $username = $fname.$lname.'_client_'.$id;
 
                 $form_data = array(

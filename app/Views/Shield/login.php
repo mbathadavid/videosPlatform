@@ -6,7 +6,7 @@
 <div class="row justify-content-center">
     <div class="col-md-9">
         <div class="card row mx-0 flex-row overflow-hidden">
-            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets2/admin/images/others/bg-2.jpg');">
+            <div class="col-md-4 bg-size-cover d-flex align-items-center p-4" style="background-image: url('<?php echo base_url() ?>/assets2/admin/images/others/bgx-2.jpg');">
                 <div>
                     <div class="mb-5">
                         <div class="logo">
@@ -48,7 +48,6 @@
                             <div class="mb-3">
                                 <label class="form-label d-flex justify-content-between">
                                     <span>Password</span>
-                                    <!-- <a href="#" class="text-primary font">Forget Password?</a> -->
                                 </label>
                                 <div class="form-group input-affix flex-column">
                                     <label class="d-none">Password</label>
@@ -58,8 +57,13 @@
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Log In</button>
                         </form>
-                        
-                       
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+
                     </div>
                 </div>
             </div>
