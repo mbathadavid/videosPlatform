@@ -41,10 +41,19 @@ class Administrator extends AdministratorController
 
         if ($this->request->getPost()) {
             $post = (object) $this->request->getPost();
+
+            // echo "<pre>";
+            //         print_r($post);
+            // echo "</pre>";
+            // die;
+
             $mediahouse = (object) $media->find($post->mediahouse);
 
             $form_data = array(
                 'storytitle' => $post->storytitle,
+                'category' => $post->category,
+                'page' => $post->page,
+                'soi' => $post->soi,
                 'mediahouse' => $post->mediahouse,
                 'ratecard' => $mediahouse->rate_card,
                 'datetime' => strtotime($post->datetime),
@@ -215,6 +224,12 @@ class Administrator extends AdministratorController
             $model->where('client', $client);
         }
 
+        if ($category) {
+            $model->where('category', $category);
+        }
+
+        $model->where('status', 1);
+
         // Total number of records without filtering
         $totalRecords = $model->countAllResults(false);
 
@@ -236,6 +251,11 @@ class Administrator extends AdministratorController
 
         // Prepare data for DataTables
         $data = [];
+        $cats = array(
+            1 => 'Print Media',
+            2 => 'Media Clip'
+        );
+
         foreach ($clips as $p) {
             $p = (object) $p;
             $mediahouses = $this->gen->populate('mediahouses', 'id', 'name');
@@ -249,6 +269,9 @@ class Administrator extends AdministratorController
             $data[] = [
                 'id' => $p->id,
                 'title' => $p->storytitle,
+                'category' => isset($cats[$p->category]) ? $cats[$p->category] : 'N/A',
+                'page' => $p->page ? $p->page : '',
+                'soi' => $p->soi ? $p->soi : '',
                 'media' => $media,
                 'client' => $client,
                 'slot' => $slot,
@@ -409,5 +432,15 @@ class Administrator extends AdministratorController
         exit;
     }
 
+    //Delete Clip
+    public function delete($id) {
+        $done = $this->gen->update_data('mediaclips',['status' => 2],['id' => $id]);
+
+        if ($done) {
+            return redirect()->to('admin/media_clips')->with('success', 'Media Clip Successfully Deleted!');
+        } else {
+            return redirect()->to('admin/media_clips')->with('error', 'Something went wrong!');
+        }
+    }
 
 }

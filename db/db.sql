@@ -367,3 +367,11 @@ CREATE TABLE IF NOT EXISTS `clips` (
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB   DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `mediaclips`
+	ADD COLUMN `page` TEXT NULL DEFAULT NULL AFTER `storytitle`,
+	ADD COLUMN `soi` TEXT NULL DEFAULT NULL AFTER `page`;
+ALTER TABLE `mediaclips`
+	ADD COLUMN `category` TEXT NULL DEFAULT NULL AFTER `storytitle`;
+ALTER TABLE `mediaclips`
+	ADD COLUMN `status` INT(11) NOT NULL DEFAULT '1' AFTER `client`;

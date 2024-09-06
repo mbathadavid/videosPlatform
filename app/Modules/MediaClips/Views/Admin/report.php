@@ -25,7 +25,7 @@
                     <tr>
                         <td>
                             <?php
-                            $categories = [1 => 'All Categories', 2 => 'Media Clips', 3 => 'Print Media'];
+                            $categories = ['' => 'All Categories', 2 => 'Print Media', 3 => 'Media Clips'];
                             echo form_dropdown('category', $categories, '', 'class="form-control select2"') ?>
                         </td>
 
@@ -60,6 +60,9 @@
                         <tr>
                             <th>#</th>
                             <th>Date</th>
+                            <th>Category</th>
+                            <th>Page</th>
+                            <th>SOI(cm<sup>2</sup>)</th>
                             <th>Client</th>
                             <th>Title</th>
                             <th>Media House</th>
@@ -97,6 +100,15 @@
                 }, // This will be for the index/serial number
                 {
                     "data": "date"
+                },
+                {
+                    "data": "category"
+                },
+                {
+                    "data": "page"
+                },
+                {
+                    "data": "soi"
                 },
                 {
                     "data": "client"

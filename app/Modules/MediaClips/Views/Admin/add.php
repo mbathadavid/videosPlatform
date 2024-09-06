@@ -15,11 +15,31 @@
 
             <div class="col-md-6 col-lg-6">
                 <div class="form-group">
+                    <label>Category <span class="text-danger">*</span></label>
+                    <?php
+                    $cats = array(
+                        1 => 'Print Media',
+                        2 => 'Media Clips'
+                    );
+                    echo form_dropdown('category', ['' => 'Select Category'] + $cats, '', 'class="form-select " id="category" placeholder="Category" required')
+                    ?>
+                </div>
+                <div id="publicationfields">
+                    <div class="form-group">
+                        <label for="" class="form-label">Page <span class="text-danger"></span></label>
+                        <input type="text" name="page" class="form-control" id="page" aria-describedby="">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">SOI(cm<sup>2</sup>) <span class="text-danger"></span></label>
+                        <input type="text" name="soi" class="form-control" id="soi" aria-describedby="">
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="exampleInputEmail1" class="form-label">Story Title <span class="text-danger">*</span></label>
                     <input type="text" name="storytitle" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
-                    <label>Media House <span class="text-danger">*</span></label>
+                    <label>Media House/Publication <span class="text-danger">*</span></label>
                     <?php
                     echo form_dropdown('mediahouse', ['' => 'Select Media'] + $mediahouses, '', 'class="form-select " id="inlineFormSelectPref" placeholder="Media House" required')
                     ?>
@@ -80,14 +100,15 @@
                     <div class="dropzone" id="myDropzone">
                         <div class="dz-message">Drag & drop your image or click to select</div>
                     </div>
-                    <input type="file" name="filepond[]" id="fileInput" accept=".mp4,.mp3" style="display: none;" multiple>
+                    <input type="file" name="filepond[]" id="fileInput" accept=".mp4,.mp3,image/*" style="display: none;" multiple>
 
                 </div>
 
-                <div class="form-group mt-2">
-                    <button type="submit" class="btn btn-primary float-end">Submit</button>
-                </div>
+                
             </div>
+        </div>
+        <div class="form-group mt-2">
+            <button type="submit" class="btn btn-primary float-end">Submit</button>
         </div>
         <?php echo form_close() ?>
     </div>
@@ -145,7 +166,7 @@
         autoProcessQueue: false,
         uploadMultiple: true,
         maxFilesize: 20000,
-        acceptedFiles: "video/mp4,audio/mpeg",
+        acceptedFiles: "video/mp4,audio/mpeg,image/*",
         addRemoveLinks: true,
 
         init: function() {
@@ -179,6 +200,22 @@
                 document.getElementById("fileInput").value = "";
             });
         }
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#publicationfields").hide();
+
+        $("#category").change(function(){
+            var cat = $(this).val();
+
+            if (cat == 1) {
+                $("#publicationfields").show(); 
+            } else if(cat == 2) {
+                $("#publicationfields").hide();
+            }
+            // console.log(cat);
+        });
     });
 </script>
 
