@@ -1,0 +1,63 @@
+ERROR - 2024-08-24 12:29:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'rmedia' in E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'rmedia', 3306, '', 0)
+#1 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#6 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#7 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Helpers\setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#8 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(685): setting('Auth.sessionCon...')
+#9 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(703): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(390): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#11 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(374): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Auth.php(191): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 E:\xampp\htdocs\projects\videosPlatform\app\Filters\AuthFilter.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#14 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Filters\Filters.php(184): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#15 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('admin/media_cli...', 'before')
+#16 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 E:\xampp\htdocs\projects\videosPlatform\index.php(79): CodeIgniter\CodeIgniter->run()
+#18 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'rmedia' in E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(NULL)
+#5 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', NULL)
+#6 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\settings\src\Helpers\setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionCon...')
+#7 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(685): setting('Auth.sessionCon...')
+#8 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(703): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#9 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(390): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+#10 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(374): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#11 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\shield\src\Auth.php(191): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#12 E:\xampp\htdocs\projects\videosPlatform\app\Filters\AuthFilter.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', Array)
+#13 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\Filters\Filters.php(184): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#14 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('admin/media_cli...', 'before')
+#15 E:\xampp\htdocs\projects\videosPlatform\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 E:\xampp\htdocs\projects\videosPlatform\index.php(79): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2024-08-24 12:29:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'rmedia'
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `context` IS NULL', [], false)
+ 3 FCPATH\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(186): CodeIgniter\Database\BaseBuilder->get()
+ 4 FCPATH\vendor\codeigniter4\settings\src\Handlers\DatabaseHandler.php(51): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 5 FCPATH\vendor\codeigniter4\settings\src\Settings.php(59): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 6 FCPATH\vendor\codeigniter4\settings\src\Helpers\setting_helper.php(25): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 7 FCPATH\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(685): setting('Auth.sessionConfig')
+ 8 FCPATH\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(703): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 9 FCPATH\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(390): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+10 FCPATH\vendor\codeigniter4\shield\src\Authentication\Authenticators\Session.php(374): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+11 FCPATH\vendor\codeigniter4\shield\src\Auth.php(191): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+12 APPPATH\Filters\AuthFilter.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+13 SYSTEMPATH\Filters\Filters.php(184): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+14 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('admin/media_clips', 'before')
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
