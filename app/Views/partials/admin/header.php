@@ -83,7 +83,11 @@ $settings = (object) $setmodel->find_set(1);
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img class="rounded-circle header-profile-user" src="<?php echo base_url() ?>/assets/admin/images/users/avatar-1.jpg"
                                     alt="Header Avatar">
+                                    <?php
+                                    if (auth()->loggedIn()) {
+                                    ?>
                                 <span class="d-none d-xl-inline-block ms-1 fw-medium"><?php echo ucfirst(auth()->user()->username)?></span>
+                                <?php }?>
                                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">

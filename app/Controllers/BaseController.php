@@ -27,6 +27,7 @@ abstract class BaseController extends Controller
      * @var CLIRequest|IncomingRequest
      */
     protected $request;
+    protected $gen;
 
     /**
      * An array of helpers to be loaded automatically upon
@@ -50,6 +51,7 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
+        $this->gen =  new \App\Models\GeneralModel();
 
         // Preload any models, libraries, etc, here.
 

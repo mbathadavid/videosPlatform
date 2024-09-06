@@ -5,11 +5,10 @@
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title">Media Clips</h4>
-
+                <a href="<?php echo base_url('admin/media_clips/add') ?>" class="btn btn-primary text-white float-end">New Upload</a>
             </div>
             <div class="card-body">
 
-              
 
                 <table id="reports" class="table table-bordered dt-responsive  nowrap w-100">
                     <thead>
