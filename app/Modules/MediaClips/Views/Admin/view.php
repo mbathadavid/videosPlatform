@@ -14,13 +14,17 @@
                     $cli = (object) $cli;  
                     $filepath = $cli->path;
                     $mimeType = mime_content_type($filepath);
-
+                    $mime = explode('/',$mimeType)[0];
+                    
                     // print_r($mimeType);
                 ?>
-
-                <video id="player1" width="100%" height="<?php echo $mimeType === "audio/mpeg" ? '100px' : 'auto' ?>" controls>
-                    <source src="<?php echo base_url($cli->path) ?>" type="video/mp4">
-                </video>
+                <?php if ($mime === "image") { ?>
+                    <img src="<?php echo base_url($cli->path) ?>" class="img-fluid">
+                <?php } else { ?>
+                    <video id="player1" width="100%" height="<?php echo $mimeType === "audio/mpeg" ? '100px' : 'auto' ?>" controls>
+                        <source src="<?php echo base_url($cli->path) ?>" type="video/mp4">
+                    </video>
+                <?php } ?>
                 <?php } } else {  ?>
                         <h5 class="text-center">There are no media files found</h5>
                 <?php }  ?>

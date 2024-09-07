@@ -80,6 +80,7 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
         $routes->add('/', 'Administrator::index');
         $routes->add('add', 'Administrator::add');
         $routes->add('view/(:any)', 'Administrator::view/$1');
+        $routes->add('delete/(:any)', 'Administrator::delete/$1');
         $routes->add('get-report', 'Administrator::getReport');
     });
 
