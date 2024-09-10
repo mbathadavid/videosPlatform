@@ -375,3 +375,8 @@ ALTER TABLE `mediaclips`
 	ADD COLUMN `category` TEXT NULL DEFAULT NULL AFTER `storytitle`;
 ALTER TABLE `mediaclips`
 	ADD COLUMN `status` INT(11) NOT NULL DEFAULT '1' AFTER `client`;
+
+
+  ALTER TABLE `clips`
+	ADD COLUMN `file_name` TEXT NULL DEFAULT NULL AFTER `path`,
+	ADD COLUMN `file_path` TEXT NULL DEFAULT NULL AFTER `file_name`;

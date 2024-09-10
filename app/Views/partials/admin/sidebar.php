@@ -37,16 +37,16 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                 </li>
 
 
-
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow">
+                    <a href="<?php echo base_url('admin/media_clips/get-report') ?>">
                         <i data-feather="file"></i>
-                        <span data-key="reports">Reports</span>
+                        <span data-key="t-dashboard">Report</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="<?php echo base_url('admin/media_clips/get-report') ?>" data-key="t-alerts">Monthly Report</a></li>
-                    </ul>
                 </li>
+
+
+
+       
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -57,7 +57,6 @@ $routePath = trim(str_replace('/projects/videosPlatform', '', $basePath), '/');
                         <li><a href="<?php echo base_url('admin/industries/manage') ?>" data-key="t-alerts">Industries</a></li>
                         <li><a href="<?php echo base_url('admin/media-houses/manage') ?>" data-key="t-buttons">Media Houses</a></li>
                         <li><a href="<?php echo base_url('admin/slots/manage') ?>" data-key="t-cards">Slots</a></li>
-                        <li><a href="<?php echo base_url('admin/platforms/manage') ?>" data-key="t-carousel">Platforms</a></li>
                     </ul>
                 </li>
 

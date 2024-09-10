@@ -51,4 +51,34 @@ class MediaHouses_m extends Model
     {
         return $this->db->table('mediahouses')->orderBy('name','ASC')->get()->getResult();
     }
+
+    function get_print()
+    {
+        $list =  $this->db->table('mediahouses')->where(['category' => 'Print'])->get()->getResult();
+
+        $out = [];
+
+        foreach($list as $p)
+        {
+            $out[$p->id] = $p->name;
+        }
+
+        return $out;
+    }
+
+    function media_houses()
+    {
+        $list =  $this->db->table('mediahouses')
+                            ->where(['category' => 'TV'])
+                            ->orWhere(['category' => 'Radio'])
+                            ->get()->getResult();
+
+        $out = [];
+
+        foreach ($list as $p) {
+            $out[$p->id] = $p->name;
+        }
+
+        return $out;
+    }
 }

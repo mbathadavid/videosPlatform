@@ -23,7 +23,7 @@
                     <div class="form-group">
                         <label>Category</label>
                         <?php
-                        $cats =  ['Radio' => 'Radio', 'TV' => 'TV'];
+                        $cats =  ['Radio' => 'Radio', 'TV' => 'TV', 'Print' => 'Print'];
                         echo form_dropdown('category', ['' => ''] + $cats, '', 'class="form-select " id="inlineFormSelectPref" placeholder="Media Name" required') ?>
                     </div>
 

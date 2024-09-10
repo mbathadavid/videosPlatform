@@ -17,14 +17,14 @@
                         <?php echo form_input('name', '', 'class="form-control" placeholder="Client Name" required') ?>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group"  hidden>
                         <label>Email</label>
-                        <?php echo form_input('email', '', 'class="form-control" placeholder="Client Email" required') ?>
+                        <?php echo form_input('email', '', 'class="form-control" placeholder="Client Email" ') ?>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group" hidden>
                         <label>Phone</label>
-                        <?php echo form_input('phone', '', 'class="form-control" placeholder="Client Phone Number" required') ?>
+                        <?php echo form_input('phone', '', 'class="form-control" placeholder="Client Phone Number" ') ?>
                     </div>
 
                     <div class="form-group">
@@ -63,8 +63,8 @@
                                 <tr>
                                     <th>#</th>
                                     <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Phone</th>
+                                    <th hidden>Email</th>
+                                    <th hidden>Phone</th>
                                     <th>Industry</th>
                                     <th>Description</th>
                                     <th>Status</th>
@@ -81,8 +81,8 @@
                                         <tr>
                                             <td><?php echo $i; ?></td>
                                             <td><?php echo $cl->name ?></td>
-                                            <td><?php echo $cl->email ?></td>
-                                            <td><?php echo $cl->phone ?></td>
+                                            <td hidden><?php echo $cl->email ?></td>
+                                            <td hidden><?php echo $cl->phone ?></td>
                                             <td><?php echo $industries[$cl->industry] ?></td>
                                             <td><?php echo $cl->description ?></td>
                                             <td>

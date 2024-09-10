@@ -47,7 +47,7 @@ class AuthFilter implements FilterInterface
         }
 
         // ALLOW ALL AJAX CALLS
-        if($groupSegment == 'AjaxDataSources')
+        if($groupSegment == 'AjaxDataSources' || $groupSegment == 'public_resource')
         {
             return ;
         }

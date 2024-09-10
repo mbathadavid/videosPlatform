@@ -25,8 +25,8 @@
                     <tr>
                         <td>
                             <?php
-                            $categories = ['' => 'All Categories', 2 => 'Print Media', 3 => 'Media Clips'];
-                            echo form_dropdown('category', $categories, '', 'class="form-control select2"') ?>
+                            $categories = ['' => 'All Categories', 1 => 'Print Media', 2 => 'Media Clips'];
+                            echo form_dropdown('category', $categories, '', 'class="form-control select"') ?>
                         </td>
 
                         <td>
@@ -42,7 +42,7 @@
 
                         <td>
                             <?php
-                            echo form_dropdown('client', ['' => 'All Clients'] +  $clients, '', 'class="form-control select2"') ?>
+                            echo form_dropdown('client', ['' => 'All Clients'] +  $clients, '', 'class="form-control select"') ?>
                         </td>
 
                         <td>
@@ -61,13 +61,10 @@
                             <th>#</th>
                             <th>Date</th>
                             <th>Category</th>
-                            <th>Page</th>
-                            <th>SOI(cm<sup>2</sup>)</th>
+                            
                             <th>Client</th>
                             <th>Title</th>
                             <th>Media House</th>
-                            <th>Slot</th>
-                            <th>Duration</th>
                             <th>..</th>
                         </tr>
                     </thead>
@@ -104,12 +101,7 @@
                 {
                     "data": "category"
                 },
-                {
-                    "data": "page"
-                },
-                {
-                    "data": "soi"
-                },
+                
                 {
                     "data": "client"
                 },
@@ -119,19 +111,14 @@
                 {
                     "data": "media"
                 },
-                {
-                    "data": "slot"
-                },
-                {
-                    "data": "duration"
-                },
+                 
                 {
                     "data": null,
                     "orderable": false,
                     "searchable": false,
                     "render": function(data, type, row) {
                         return `
-                        <a href="<?= base_url('admin/media_clips/view/') ?>${row.id}" class="btn btn-primary btn-sm">View</a>
+                        <a href="<?= base_url('admin/media_clips/view/') ?>${row.encryptedId}" class="btn btn-primary btn-sm">View</a>
                     `;
                     },
                     "className": "text-end"

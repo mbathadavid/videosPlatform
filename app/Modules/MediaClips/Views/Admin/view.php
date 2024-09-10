@@ -8,25 +8,30 @@
     <div class="card-body">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <?php 
+                <?php
                 if (count($clips) > 0) {
-                   foreach ($clips as $key => $cli) {
-                    $cli = (object) $cli;  
-                    $filepath = $cli->path;
-                    $mimeType = mime_content_type($filepath);
-                    $mime = explode('/',$mimeType)[0];
-                    
-                    // print_r($mimeType);
+                    foreach ($clips as $key => $cli) {
+                        $cli = (object) $cli;
+                        $filepath = $cli->path;
+                        $mimeType = mime_content_type($filepath);
+                        $mime = explode('/', $mimeType)[0];
+
+
+
                 ?>
-                <?php if ($mime === "image") { ?>
-                    <img src="<?php echo base_url($cli->path) ?>" class="img-fluid">
-                <?php } else { ?>
-                    <video id="player1" width="100%" height="<?php echo $mimeType === "audio/mpeg" ? '100px' : 'auto' ?>" controls>
-                        <source src="<?php echo base_url($cli->path) ?>" type="video/mp4">
-                    </video>
-                <?php } ?>
-                <?php } } else {  ?>
-                        <h5 class="text-center">There are no media files found</h5>
+                        <?php if ($mime === "image") { ?>
+                            <img src="<?php echo base_url($cli->path) ?>" class="img-fluid">
+                        <?php } else if ($mime == 'application') { ?>
+                            <a href="<?php echo base_url($cli->path) ?>" target="_blank" class="btn btn-sm btn-success">Download</a><br><br>
+                            <embed width="100%" height="100%" src="<?php echo base_url($cli->path) ?>" type="application/pdf">
+                        <?php } else { ?>
+                            <video id="player1" width="100%" height="<?php echo $mimeType === "audio/mpeg" ? '100px' : 'auto' ?>" controls>
+                                <source src="<?php echo base_url($cli->path) ?>" type="video/mp4">
+                            </video>
+                        <?php } ?>
+                    <?php }
+                } else {  ?>
+                    <h5 class="text-center">There are no media files found</h5>
                 <?php }  ?>
 
                 <!-- <div class="table-responsive">
@@ -77,7 +82,7 @@
                             </tr>
                             <tr>
                                 <td><b>Date & Time</b></td>
-                                <td><?php echo date('d M Y H:i',$clip->datetime) ?></td>
+                                <td><?php echo date('d M Y H:i', $clip->datetime) ?></td>
                             </tr>
                             <tr>
                                 <td><b>Slot</b></td>

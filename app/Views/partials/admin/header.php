@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 use App\Modules\Settings\Models\Settings_m;
 
 $setmodel = new Settings_m();
@@ -10,92 +11,92 @@ $settings = (object) $setmodel->find_set(1);
 
 ?>
 <header id="page-topbar">
-                <div class="navbar-header">
-                    <div class="d-flex">
-                        <!-- LOGO -->
-                        <div class="navbar-brand-box">
-                            <a href="index.html" class="logo logo-dark">
-                                <span class="logo-sm">
-                                    <img src="<?php echo isset($settings->logopath)? base_url($settings->logopath) : '' ?>" alt="" height="40">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="<?php echo isset($settings->logopath)? base_url($settings->logopath) : '' ?>" alt="" height="40"> <span class="logo-txt"><?php echo isset($settings->shortname) ?  $settings->shortname : ' - '?></span>
-                                </span>
-                            </a>
+    <div class="navbar-header">
+        <div class="d-flex">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <a href="index.html" class="logo logo-dark">
+                    <span class="logo-sm">
+                        <img src="<?php echo isset($settings->logopath) ? base_url($settings->logopath) : '' ?>" alt="" height="40">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="<?php echo isset($settings->logopath) ? base_url($settings->logopath) : '' ?>" alt="" height="40"> <span class="logo-txt"><?php echo isset($settings->shortname) ?  $settings->shortname : ' - ' ?></span>
+                    </span>
+                </a>
 
-                            <a href="index.html" class="logo logo-light">
-                                <span class="logo-sm">
-                                    <img src="<?php echo isset($settings->logopath)? base_url($settings->logopath) : '' ?>" alt="" height="40">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="<?php echo isset($settings->logopath)? base_url($settings->logopath) : '' ?>" alt="" height="40"> <span class="logo-txt"><?php echo isset($settings->shortname) ?  $settings->shortname : ' - '?></span>
-                                </span>
-                            </a>
-                        </div>
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm">
+                        <img src="<?php echo isset($settings->logopath) ? base_url($settings->logopath) : '' ?>" alt="" height="40">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="<?php echo isset($settings->logopath) ? base_url($settings->logopath) : '' ?>" alt="" height="40"> <span class="logo-txt"><?php echo isset($settings->shortname) ?  $settings->shortname : ' - ' ?></span>
+                    </span>
+                </a>
+            </div>
 
-                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
-                            <i class="fa fa-fw fa-bars"></i>
-                        </button>
+            <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
+                <i class="fa fa-fw fa-bars"></i>
+            </button>
 
-                        <!-- App Search-->
-                      
-                    </div>
+            <!-- App Search-->
 
-                    <div class="d-flex">
+        </div>
 
-                        <div class="dropdown d-inline-block d-lg-none ms-2">
-                            <button type="button" class="btn header-item" id="page-header-search-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i data-feather="search" class="icon-lg"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                aria-labelledby="page-header-search-dropdown">
-        
-                                <form class="p-3">
-                                    <div class="form-group m-0">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Search Result">
+        <div class="d-flex">
 
-                                            <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
-                                        </div>
-                                    </div>
-                                </form>
+            <div class="dropdown d-inline-block d-lg-none ms-2">
+                <button type="button" class="btn header-item" id="page-header-search-dropdown"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i data-feather="search" class="icon-lg"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                    aria-labelledby="page-header-search-dropdown">
+
+                    <form class="p-3">
+                        <div class="form-group m-0">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search ..." aria-label="Search Result">
+
+                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
                             </div>
                         </div>
-
-                     
-
-                        <div class="dropdown d-none d-sm-inline-block">
-                            <button type="button" class="btn header-item" id="mode-setting-btn">
-                                <i data-feather="moon" class="icon-lg layout-mode-dark"></i>
-                                <i data-feather="sun" class="icon-lg layout-mode-light"></i>
-                            </button>
-                        </div>
-
-                       
-
-                    
-
-                       
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="rounded-circle header-profile-user" src="<?php echo base_url() ?>/assets/admin/images/users/avatar-1.jpg"
-                                    alt="Header Avatar">
-                                    <?php
-                                    if (auth()->loggedIn()) {
-                                    ?>
-                                <span class="d-none d-xl-inline-block ms-1 fw-medium"><?php echo ucfirst(auth()->user()->username)?></span>
-                                <?php }?>
-                                <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                
-                                <a class="dropdown-item" href="<?php echo base_url('logout') ?>"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
-                            </div>
-                        </div>
-
-                    </div>
+                    </form>
                 </div>
-            </header>
+            </div>
+
+
+
+            <div class="dropdown d-none d-sm-inline-block">
+                <button type="button" class="btn header-item" id="mode-setting-btn">
+                    <i data-feather="moon" class="icon-lg layout-mode-dark"></i>
+                    <i data-feather="sun" class="icon-lg layout-mode-light"></i>
+                </button>
+            </div>
+
+
+
+
+
+
+
+            <div class="dropdown d-inline-block">
+                <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="rounded-circle header-profile-user" src="<?php echo isset($settings->logopath) ? base_url($settings->logopath) : '' ?>"
+                        alt="Header Avatar">
+                    <?php
+                    if (auth()->loggedIn()) {
+                    ?>
+                        <span class="d-none d-xl-inline-block ms-1 fw-medium"><?php echo ucfirst(auth()->user()->username) ?></span>
+                    <?php } ?>
+                    <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-end">
+
+                    <a class="dropdown-item" href="<?php echo base_url('logout') ?>"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>

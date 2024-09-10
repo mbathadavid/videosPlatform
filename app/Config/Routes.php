@@ -96,7 +96,8 @@ $routes->group('admin', ['filter' => 'auth'], function ($routes) {
 $routes->group('AjaxDataSources', ['filter' => 'auth'], function ($routes) {
     $routes->group('media_clips', ['namespace' => 'App\Modules\MediaClips\Controllers', 'filter' => 'auth'], function ($routes) {
         $routes->add('FetchReport', 'Administrator::fetchMediaReport');
-        $routes->add('ExportReportCSV', 'Administrator::exportMediaReportCSV');
+        // $routes->add('ExportReportCSV', 'Administrator::exportMediaReportCSV');
+        $routes->add('ExportReportCSV', 'Administrator::exportMediaReportExcel');
     });
 });
 
@@ -105,4 +106,10 @@ $routes->group('AjaxDataSources', ['filter' => 'auth'], function ($routes) {
 $routes->group('client-area', ['filter' => 'auth'], function ($routes) {
     $routes->get('/', 'Admin::index');
     $routes->add('manage', 'Administrator::index');
+});
+
+
+
+$routes->group('public_resource', ['namespace' => 'App\Modules\MediaClips\Controllers'], function ($routes) {
+    $routes->add('media/view/(:any)', 'Administrator::viewClips/$1');
 });

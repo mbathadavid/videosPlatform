@@ -137,7 +137,11 @@ $settings = (object) $setmodel->find_set(1);
 
     <!-- Responsive datatable examples -->
     <link href="<?php echo base_url() ?>assets/admin/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="<?php echo base_url() ?>assets/admin/vendors/select2/select2.min.css" rel="stylesheet" />
+    <script src="<?php echo base_url() ?>assets/admin/vendors/select2/select2.min.js"></script>
 </head>
+
 
 <body>
 
@@ -252,7 +256,7 @@ $settings = (object) $setmodel->find_set(1);
 
     <!-- choices -->
     <!-- choices js -->
-    <script src="<?php echo base_url()?>assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
 
     <script>
         $('.data-table, .datatable').DataTable({
@@ -269,6 +273,13 @@ $settings = (object) $setmodel->find_set(1);
             initComplete: function() {
                 // Optionally, you can add custom styling here if needed
             }
+
+
+        });
+
+
+        $(document).ready(function() {
+            $('.select,.form-select').select2();
         });
     </script>
 

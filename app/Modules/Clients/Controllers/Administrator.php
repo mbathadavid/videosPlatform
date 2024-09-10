@@ -28,8 +28,8 @@ class Administrator extends AdministratorController
 
             $formd = [
                 'name' => $post->name,
-                'email' => $post->email,
-                'phone' => $post->phone,
+                // 'email' => $post->email,
+                // 'phone' => $post->phone,
                 'industry' => $post->industry,
                 'description' => $post->description,
                 'status' => 1,
@@ -52,28 +52,28 @@ class Administrator extends AdministratorController
                 $user = new User([
                     'first_name' => $fname,
                     'last_name' => $lname,
-                    'phone' => $post->phone,
+                    // 'phone' => $post->phone,
                     'username' => $username,
-                    'email'    => $post->email,
+                    // 'email'    => $post->email,
                     'password' => '12345678',
                 ]);
 
                 // $users->save($user);
 
-                if ($users->save($user)) {
-                    $user = $users->findById($users->getInsertID());
+                // if ($users->save($user)) {
+                //     $user = $users->findById($users->getInsertID());
 
-                    //Update Client User ID
-                    $upd = $this->gen->update_data('clients',['user_id' => $users->getInsertID()],['id' => $ok]);
-                    // echo "<pre>";
-                    //     print_r($users->getInsertID());
-                    // echo "</pre>";
-                    // die;
-                    //Add to Group
-                    $user->addGroup('client');
+                //     //Update Client User ID
+                //     $upd = $this->gen->update_data('clients',['user_id' => $users->getInsertID()],['id' => $ok]);
+                //     // echo "<pre>";
+                //     //     print_r($users->getInsertID());
+                //     // echo "</pre>";
+                //     // die;
+                //     //Add to Group
+                //     // $user->addGroup('client');
 
-                    $user->activate();
-                }
+                //     // $user->activate();
+                // }
                 
 
                 return redirect()->to('admin/clients')->with('success', 'Client Successfully Created!');
@@ -99,8 +99,8 @@ class Administrator extends AdministratorController
             //Update Client Part
             $formd = [
                 'name' => $post->name,
-                'email' => $post->email,
-                'phone' => $post->phone,
+                // 'email' => $post->email,
+                // 'phone' => $post->phone,
                 'industry' => $post->industry,
                 'description' => $post->description,
                 'modified_by' => auth()->user()->id,
@@ -124,14 +124,14 @@ class Administrator extends AdministratorController
                 $form_data = array(
                     'first_name' => $fname,
                     'last_name' => $lname,
-                    'phone' => $post->phone,
+                    // 'phone' => $post->phone,
                     'username' => $username,
-                    'email'    => $post->email,
+                    // 'email'    => $post->email,
                 );      
                 
-                $user->fill($form_data);
+                // $user->fill($form_data);
 
-                $users->save($user);
+                // $users->save($user);
 
                 return redirect()->to('admin/clients')->with('success', 'Client Successfully Edited!');
             } else {

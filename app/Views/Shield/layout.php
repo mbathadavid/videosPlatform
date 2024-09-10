@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Espire - Admin Dashboard Template</title>
+    <title>Rmedia Consultancy</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo base_url() ?>/assets2/admin/images/logo/favicon.ico">

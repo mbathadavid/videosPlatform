@@ -23,15 +23,7 @@
                         <?php echo form_input('name', $client->name, 'class="form-control" placeholder="Client Name" required') ?>
                     </div>
 
-                    <div class="form-group">
-                        <label>Email</label>
-                        <?php echo form_input('email', $client->email, 'class="form-control" placeholder="Client Email" required') ?>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Phone</label>
-                        <?php echo form_input('phone', $client->phone, 'class="form-control" placeholder="Client Phone Number" required') ?>
-                    </div>
+                     
 
                     <div class="form-group">
                         <label>Industry</label>
